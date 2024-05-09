@@ -1,0 +1,14 @@
+socketio - https://freecoursesite.com/socketio-with-websockets-the-details/
+
+
+
+
+ds - https://freecoursesite.com/the-coding-interview-bootcamp-algorithms-data-structures-15/
+
+
+react - https://freecoursesite.com/the-ultimate-react-course-react-redux-more/
+
+
+
+
+data visualization - https://freecoursesite.com/build-data-visualizations-with-d3-js-firebase/

@@ -1,0 +1,7 @@
+system design concepts - https://github.com/ByteByteGoHq/system-design-101
+
+encryption
+- Public Key Cryptography: https://youtu.be/GSIDS_lvRv4?si=l1BpueBOgWEwPEnx
+-Secret Key Exchange: https://youtu.be/NmM9HA2MQGI?si=Fsa6ikM_x8kTcwxX
+- Diffie Hellman Maths: https://youtu.be/Yjrfm_oRO0w?si=0PnLVbfXIqrNFiwc
+-Key Exchange Problems: https://youtu.be/vsXMMT2CqqE?si=4rgswqu0NZGkRU5X 

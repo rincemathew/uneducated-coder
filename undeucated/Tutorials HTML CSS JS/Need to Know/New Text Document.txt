@@ -1,0 +1,30 @@
+https://www.bfxr.net/ -- Bfxr is an elaboration of the glorious Sfxr, the program of choice for many people looking to make sound effects for computer games
+themealdb
+randomuser.me
+Pieces for developers -https://pieces.app/
+
+
+pythontutor -- for online debugger
+
+sql
+sql online testing - pg-sql.com
+
+npm
+swiper.js - image slider, carosaline
+multer - image upload
+bcrypt - hash password
+cropperjs, sharp - image edit
+tesseract.js - image to text
+dotenv - environment variable
+ejs - template
+express-session - for session handling
+mongoosh - mongodb connect
+nocache - delete cache
+nodemailer - sent mails
+swwtalert2 - alerts
+vhost - sub domains
+nodemon - auto refresh
+https://d3js.org/, chartjs, highcharts - data visalization
+canvas - graphic api
+passport.js - authentication
+threejs,bablonjs - 3d computer graphics(games)
