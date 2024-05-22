@@ -5,3 +5,6 @@ encryption
 -Secret Key Exchange: https://youtu.be/NmM9HA2MQGI?si=Fsa6ikM_x8kTcwxX
 - Diffie Hellman Maths: https://youtu.be/Yjrfm_oRO0w?si=0PnLVbfXIqrNFiwc
 -Key Exchange Problems: https://youtu.be/vsXMMT2CqqE?si=4rgswqu0NZGkRU5X 
+
+
+netlify, render, vercel are hosting sites
