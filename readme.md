@@ -2,5 +2,5 @@
 
 #Interview Questions & Answers
 
-> Click :star:if you like the project.
+> Click :star:if you like the project`.
 
