@@ -2,14 +2,7 @@
 
 
 
-| No. | Questions                                                                                                                                                                                                                        |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     | **Core React**                                                                                                                                                                                                                   |
-| 1   | [What is React?](#what-is-react)                                                                                                                                                                                                 |
-| 2   | [What is the history behind React evolution?](#What-is-the-history-behind-React-evolution)                                                                                                                                       |
-| 3   | [What are the major features of React?](#what-are-the-major-features-of-react)    
 
-## Amswers
 ## React Basics
 
 1.  ### What is React?
@@ -18,7 +11,6 @@
     
     React was created by [Jordan Walke](https://github.com/jordwalke), a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.
 
-    **[⬆ Back to Top](#table-of-contents)**
 
 2. ### What is the history behind React evolution?
     The history of ReactJS started in 2010 with the creation of **XHP**. XHP is a PHP extension which improved the syntax of the language such that XML document fragments become valid PHP expressions and the primary purpose was used to create custom and reusable HTML elements. 
@@ -29,4 +21,3 @@
 
     **Note:** JSX comes from the idea of XHP
 
-    **[⬆ Back to Top](#table-of-contents)**
