@@ -24,3 +24,8 @@ code
 promise chaining
 
 catch and utils functions(resolve reject all race)
+
+
+try catch finally throw 
+
+async await

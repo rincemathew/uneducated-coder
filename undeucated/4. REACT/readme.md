@@ -29,3 +29,26 @@ YOUR TABLE
 
 </details>
 bbbbbbbbbbbbbbbbbbbb
+
+React Router
+what is react router and why?
+<BrowserRouter/>
+<HashRouter/>
+<Routes/>
+<Route/>
+<Link/>
+<NavLink/>
+
+
+url parameters vs search parameters
+useParams, useSearchParams hook
+
+relative path vs absolute path(it has '/')
+default route <Route path="*" element={<notFound/>}>
+useNavigate
+useLocation()
+
+nested route
+descented routed
+<outlet>
+index route
