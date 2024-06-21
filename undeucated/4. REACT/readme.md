@@ -52,3 +52,14 @@ nested route
 descented routed
 <outlet>
 index route
+
+dynamic routing
+dynamic import
+static bundling
+code splitting
+react.lazy
+suspense
+code bundling
+protected routes
+public routes
+role based routes
