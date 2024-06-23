@@ -29,6 +29,23 @@ YOUR TABLE
 
 </details>
 bbbbbbbbbbbbbbbbbbbb
+components
+jsx
+props
+composition
+rendering
+virtual dom
+diffing or diffs
+reconciliation
+event handling
+states
+controlled and uncontrolled components
+types of hooks(state hooks, context hools, ref hooks, effect hooks , performance hooks)
+purity
+portals
+suspense
+error boundaries
+
 
 React Router
 what is react router and why?
