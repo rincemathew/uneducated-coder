@@ -105,17 +105,12 @@ document.getElementById('decrement').onclick = ()=>{
 
 
 This can update state asynchronously using “Think”
-Mutable sate update using “immer”
 
 
 
-How to install?
-Install ‘redux’ and ‘react-redux’
-Create a store.
+how to add redux in react
+(provider, useSelector)
 
-Reducers actions dispatch
+immer library(immutabe state)
 
-store - state getState()
-dispatch() - change state
-subscripton - when state changes subscription calls
-Reducer function
+shallow copy, deep copy(lodash)
