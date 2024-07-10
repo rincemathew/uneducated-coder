@@ -28,6 +28,32 @@ dfdffffffffffffffffffffffffffffffffff
 YOUR TABLE
 
 </details>
+
+ffffff
+what is react
+why react purpose
+react and react dom
+event handlers
+react props
+controlled and uncontrolled elements
+babel
+class vs function
+render
+jsx
+immutable
+create-react-app
+state - state rules
+
+life cycle methods
+1.constructor
+2.render.
+3.componentdidmount
+4.componentdidupdate
+5.componentwillunmound
+
+
+
+
 bbbbbbbbbbbbbbbbbbbb
 components
 jsx

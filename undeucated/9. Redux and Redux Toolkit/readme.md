@@ -104,7 +104,7 @@ document.getElementById('decrement').onclick = ()=>{
 ```
 
 
-This can update state asynchronously using “Think”
+
 
 
 
@@ -112,5 +112,11 @@ how to add redux in react
 (provider, useSelector)
 
 immer library(immutabe state)
-
 shallow copy, deep copy(lodash)
+
+This can update state asynchronously using “Thunk”
+logger
+
+redux middlewear
+
+redux toolkit
