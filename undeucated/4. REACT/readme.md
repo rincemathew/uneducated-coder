@@ -1,25 +1,60 @@
 
 
 
-
+# React
 
 ## React Basics
 
 1.  ### What is React?
 
-    React(aka React.js or ReactJS) is an **open-source front-end JavaScript library** that is used for building composable user interfaces, especially for single-page applications. It is used for handling view layer for web and mobile apps based on components in a declarative approach. 
+    React is a popular JavaScript library for building user interfaces, particularly single-page applications where you need a fast and interactive user experience. It was developed by Facebook and is now maintained by Facebook and a community of individual developers and companies.
+
+    React is a powerful library for building user interfaces with a component-based architecture, virtual DOM, and declarative programming style. Its performance benefits, strong community support, and flexibility make it a popular choice for developers looking to build modern, responsive web applications.
+
+2. ### Key Features of React
     
-    React was created by [Jordan Walke](https://github.com/jordwalke), a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.
+    1.**Component-Based Architecture:** React allows you to build encapsulated components that manage their own state, and then compose them to make complex UIs. This modular approach helps in organizing the UI into smaller, reusable pieces.
+
+    2.**Virtual DOM:** React uses a virtual DOM to improve performance. When the state of an object changes, React first updates the virtual DOM, which is a lightweight copy of the actual DOM. React then compares the virtual DOM with the actual DOM and only updates the parts that have changed, resulting in faster and more efficient updates.
+
+    3.**Declarative:** React makes it easy to create interactive UIs with a declarative approach. You simply describe how your UI should look based on the current state, and React takes care of updating the UI when the state changes.
+
+    4.**JSX (JavaScript XML):** React uses JSX, a syntax extension that allows you to write HTML-like code within JavaScript. This makes it easier to visualize the structure of your UI and keep the rendering logic closely tied to the UI structure.
+
+    5.**Unidirectional Data Flow:** React enforces a unidirectional data flow, meaning data flows in one direction — from parent to child components. This makes the app easier to understand and debug.
 
 
-2. ### What is the history behind React evolution?
-    The history of ReactJS started in 2010 with the creation of **XHP**. XHP is a PHP extension which improved the syntax of the language such that XML document fragments become valid PHP expressions and the primary purpose was used to create custom and reusable HTML elements. 
-    
-    The main principle of this extension was to make front-end code easier to understand and to help avoid cross-site scripting attacks. The project was successful to prevent the malicious content submitted by the scrubbing user.
+3. ### Why Use React?
+    1.**Performance:** The virtual DOM in React ensures that updates are efficient, making the UI more responsive. React only updates the parts of the DOM that have changed, rather than re-rendering the entire page.
 
-    But there was a different problem with XHP in which dynamic web applications require many roundtrips to the server, and XHP did not solve this problem. Also, the whole UI was re-rendered for small change in the application. Later, the initial prototype of React is created with the name **FaxJ** by Jordan inspired from XHP. Finally after sometime React has been introduced as a new library into JavaScript world.
+    2.**Reusable Components:** React’s component-based architecture promotes reusability, making your code more modular and maintainable. You can build a library of components that can be reused across different parts of your application or even in different projects.
 
-    **Note:** JSX comes from the idea of XHP
+    3.**Developer Experience:** Tools like React Developer Tools for Chrome and Firefox, along with a vibrant ecosystem of libraries and extensions, enhance the developer experience. Features like hot reloading in development improve productivity by allowing developers to see changes in real-time without refreshing the browser.
+
+    4.**Strong Community and Ecosystem:** React has a large and active community, which means there are plenty of resources, tutorials, and third-party libraries available. This makes it easier to find solutions to common problems and extend the capabilities of your application.
+
+    5.**Flexibility:** React is just the view layer of the application, so it can be integrated with other libraries and frameworks. You can use React with Redux for state management, React Router for navigation, and other libraries to build a complete solution tailored to your needs.
+
+4. ### React 19 Features
+    react compiler
+    No more memoization
+    use() hook
+    useFormStatus()
+
+### What is Hooks
+
+
+### Types of Hooks
+state manaagement = useState,useReducer,useSyncExternalStore
+Effect Hooks = useEffect, useLayoutEffect, useInsersionEffect
+ref hooks = useRef, useImperativeHandle
+Performance Hooks = useMemo, useCallback
+Transition Hooks = useTransition, useDefernedValue
+Context Hooks = useContext
+Random Hooks = useDebugValue, useId
+React 19 Hooks = useFormStatues, USeFormState, UseOptimistic, use
+
+
 
 bbbbbbbbbbbbbbbbbbbb<details>
 dfdffffffffffffffffffffffffffffffffff
@@ -29,9 +64,17 @@ YOUR TABLE
 
 </details>
 
+series
+
+how react works
+what is emmet
+crossorigin in <script> tag
+react and react-dom packages
+render vs return 
+async and defer
+
 ffffff
-what is react
-why react purpose
+
 react and react dom
 event handlers
 react props
@@ -39,7 +82,6 @@ controlled and uncontrolled elements
 babel
 class vs function
 render
-jsx
 immutable
 create-react-app
 state - state rules
@@ -73,7 +115,8 @@ suspense
 error boundaries
 
 
-React Router
+## React Router
+
 what is react router and why?
 <BrowserRouter/>
 <HashRouter/>
