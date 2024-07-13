@@ -72,6 +72,14 @@ crossorigin in <script> tag
 react and react-dom packages
 render vs return 
 async and defer
+bundilers -vite, parcel, webpack
+hot module replacement HMR
+file watcher algorithm
+
+transitive dependencies
+browser list package
+
+20
 
 ffffff
 
