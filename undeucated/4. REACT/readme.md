@@ -77,9 +77,17 @@ hot module replacement HMR
 file watcher algorithm
 
 transitive dependencies
-browser list package
+browser list package-babel
+pollyfill
+tree shaking - removing unwanted code
+react key reconcilliation
+jsx - sanitization
 
-20
+components
+functional and class based
+component composition
+
+
 
 ffffff
 
