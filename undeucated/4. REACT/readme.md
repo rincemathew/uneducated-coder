@@ -121,9 +121,12 @@ component composition
 
 react.fragment
 
-//config driven ui
+
 react fiber
 why we not use index as key
+
+react variable 
+
 
 ffffff
 
