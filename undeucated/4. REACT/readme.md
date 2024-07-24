@@ -38,7 +38,7 @@
 4. ### React 19 Features
    <details>
    <summary>
-   1. **Concurrent Rendering**
+   1. Concurrent Rendering
    </summary>
    Concurrent rendering is a set of new rendering behaviors in React that help apps stay responsive and gracefully adjust to the user’s device capabilities and network speed.
 
@@ -117,7 +117,13 @@ components
 functional and class based
 component composition
 
-17
+//jsx mandodatory?
+
+react.fragment
+
+//config driven ui
+react fiber
+why we not use index as key
 
 ffffff
 
