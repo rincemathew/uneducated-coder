@@ -40,3 +40,12 @@ mongoose
 nodemon
 passport
 passport-jwt
+
+
+manychat.com automation 
+
+
+End-to-End Encryption (E2EE)
+
+
+voodoo, polly game publishers
