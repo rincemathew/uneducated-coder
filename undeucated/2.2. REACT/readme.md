@@ -127,7 +127,17 @@ why we not use index as key
 
 react variable 
 
-2.39
+handle error in useEffect()
+
+shimmer effect in ui
+
+conditional rendering
+
+{} in here JS expression will work not statement
+statement -eg: let a = 10
+expression - eg: console.log('hello'), ((a=10),console.log(a))
+
+
 ffffff
 
 react and react dom

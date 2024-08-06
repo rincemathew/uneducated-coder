@@ -49,3 +49,7 @@ End-to-End Encryption (E2EE)
 
 
 voodoo, polly game publishers
+
+
+
+cors chrome plugin
