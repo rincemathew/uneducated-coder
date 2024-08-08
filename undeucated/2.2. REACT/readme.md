@@ -137,7 +137,7 @@ conditional rendering
 statement -eg: let a = 10
 expression - eg: console.log('hello'), ((a=10),console.log(a))
 
-
+7:33
 ffffff
 
 react and react dom
