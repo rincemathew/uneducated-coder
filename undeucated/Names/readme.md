@@ -91,3 +91,6 @@ https://medium.com/@ben.dev.io/clean-architecture-in-node-js-39c3358d46f3
 The Agile methodology is a project management approach that involves breaking the project into phases and emphasizes continuous collaboration and improvement. Teams follow a cycle of planning, executing, and evaluating.
 
 https://www.geeksforgeeks.org/difference-between-imperative-and-declarative-programming/
+
+
+elevator pitch

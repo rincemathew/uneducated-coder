@@ -53,3 +53,7 @@ voodoo, polly game publishers
 
 
 cors chrome plugin
+
+
+https://resumegenius.com/resume-templates
+https://www.livecareer.com/resume/builder

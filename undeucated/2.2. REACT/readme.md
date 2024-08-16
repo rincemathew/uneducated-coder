@@ -139,7 +139,22 @@ expression - eg: console.log('hello'), ((a=10),console.log(a))
 
 formik library
 
-01:02:00
+dynamic routing
+
+object.values in javascript
+
+tailwind and postcss
+squrebracket notation (w-[200px])
+
+prop drilling
+
+pass data parent to child
+
+lifting the state up (concept)
+
+can we have nested context and context inside context
+
+1:30
 ffffff
 
 react and react dom
