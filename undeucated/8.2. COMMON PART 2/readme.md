@@ -14,3 +14,7 @@ responsive design
 customization
 dark mode support
 optimized production build
+
+
+
+ASCII-based plain text are being replaced with Unicode as a universal character encoding.

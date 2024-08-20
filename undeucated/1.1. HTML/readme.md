@@ -43,4 +43,155 @@ HTML Entities
 
 Difference between html vs xhtml
 
+the document
+doucment types
 
+html is the root of html document
+
+metadata, character set
+
+////
+ASCII-based plain text are being replaced with Unicode as a universal character encoding.
+<div> = division
+<b> vs <strong>
+<em> vs <i>
+
+day1
+Introduction to Internet, Browser, Domain, HTML
+1. Understanding Basics of web development
+What is Internet
+What is Browser
+What is Domain
+How Internet works
+2. Understanding HTML Basics
+Introduction to HTML
+Role of HTML in web development
+Basic structure of an HTML document (<!DOCTYPE html>, <html>, <head>,
+<body>)
+How to create boiler plate using! Symbol (shortcut to create new HTML
+doument with basi tag)
+3. Setting Up Your Environment
+Choosing a code editor (e.g., VSCode, Sublime Text)
+Setting up a basic HTML project
+How to Install Extensions like live server, prettier etc
+Practice
+Create a simple HTML page and using ! Symbol to create basic struture of an
+HTML page
+
+day2
+Basic Tags Basic Elements and Basic Attributes
+1. Basic Tags and Elements, Attributes
+Paragraphs (<p>)
+Headings (<h1> to <h6>)
+Line breaks (<br>)
+Emphasis and strong text (<em>, <strong>)
+What is HTML attributes?
+HTML Class Attribute
+How to add a class and How to add multiple classes?
+HTML ID Attribute
+Why we cannot add multiple id's?
+HTML title Attribute
+HTML Style Attribute
+How many internationalization attributes and which are available for mostly
+2. Inline vs. Block Elements
+Definition and differences between inline and block elements
+Examples of block elements: <div>, <p>, <h1>, etc.
+How to add nested div's and How to add nested p tag inside a div tag
+Examples of inline elements: <span>, <a>, <img>, etc.
+
+day3
+Text Formatting, Lists, Hyperlinks and HTML Comments
+1. Text Formatting (1 hour)
+Bold (<b>), Italics (<i>)
+Underline (<u>), Strikethrough (<s>)
+Subscript (<sub>) and Superscript (<sup>)
+Quotes and citations (<blockquote>, <cite>)
+2. Creating Lists
+Unordered lists (<ul>) and list items (<li>)
+Ordered lists (<ol>)
+Nested lists
+Description lists (<dl>, <dt> <dd>)
+3. Hyperlinks
+Anchor tags (<a>)
+Linking to external and internal pages
+Email links
+Opening links in new tabs with the target attribute
+4. HTML Comments and Special Characters
+Adding comments (<!-- Comment here -->)
+HTML special characters (e.g.,&amp;, &copy;, &nbsp;)
+Practice
+Build a webpage with links, lists, and formatted text.
+
+day4
+Images, Multimedia, and Forms
+1. Images
+Image tags (<img>)
+Adding alt text for accessibility
+Image formats and optimization - png, jpeg, webp, svg, avif, etc
+Responsive images using srcset
+2. Multimedia: Audio and Video
+Embedding audio (<audio>)
+Embedding video (<video>)
+Using the <embed>, <object>, and <iframe> tags
+HTML Forms and Advanced form
+3. Forms
+Form tags (<form>, <input>, <textarea>, <button>)
+Input types: text, password, checkbox, radio, etc.
+Labels and fieldsets
+Form validation basics
+1. Advanced HTML Forms
+Form validation techniques
+Understanding of <datalist>, <fieldset>, <legend>, <optgroup>, <option>,
+<output> and <select> tags.
+Practice
+Design a webpage that includes images, videos, and audio
+Build a complex form with validation
+
+day5
+Tables
+Table tags (<table>, <tr>, <td>, <th>, etc)
+Adding borders and styling
+Colspan and Rowspan
+Understanding of new Table tags <col>, <colgroup>, <thead>, <tbody> and
+tfoot> HTML tags.
+Practice
+Create a table with contents atleast 3 rows and 3 columns
+Creating complex tables including new Table tags.
+
+day6
+Semantic HTML and HTML5 Features
+1. Semantic HTML
+Importance of semantic HTML
+Semantic elements: <article>, <section>, <aside>, <nav>, <footer> etc
+HTML5 semantic tags and their roles in SEO
+2. HTML5 Features
+New input types: date, color, range, etc.
+Placeholder and required attributes
+Datalist element for suggestions
+Using <progress> and <meter> elements
+Practice
+Create a webpage with semantic HTML elements and HTML5 input types.
+
+
+Good to Cover
+1.SVG Graphics
+Introduction to Scalable Vector Graphics (SVG)
+Basic SVG shapes and elements
+Embedding SVG into HTML
+Styling SVG with CSS
+2. Canvas Element
+Introduction to <canvas>
+Drawing shapes with JavaScript
+Basic animations
+Comparison of SVG and Canvas
+3. HTML Best Practices and Optimization
+Writing clean and maintainable code
+Using comments effectively
+Code validation and debugging
+Performance optimization techniques
+4.What is SEO, How to implement
+5.Language ISO code
+6.URL Encoding
+7.HTML Layout
+8.HTML API (Geo Location, Drag & Drop, Web worker, Web Socket, Web
+Storage etc I
