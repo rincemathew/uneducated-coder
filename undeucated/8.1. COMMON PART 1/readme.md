@@ -1,5 +1,5 @@
 
-AJAX (Asynchronous javascript and XML)
+## AJAX (Asynchronous javascript and XML)
 AJAX is not a programming language. It's a technology for developing better, faster and more interactive web applications using HTML, CSS, JS, and XML.
 Asynchronous means the web application can send and receive data from the web server without refreshing the page. This background process of sending and receiving data from the server along with updating different sections of a web page defines the features of Ajax.
 AJAX makes use of a browser build-in XMLHttpRequest object to request data from a Web Server and HTML DOM to display or use the data.
@@ -18,25 +18,25 @@ function changeContent() {
 Many modern web applications still use AJAX, but it's worth mentioning that newer technologies like Fetch API and async/await in JavaScript have become popular and offer more modern and flexible ways to handle asynchronous operations. The Fetch API, for example, is a native JavaScript API for making HTTP requests and is often considered a more modern alternative to traditional AJAX.
 
 
-XML
+## XML
 XML (Extensible Markup Language) is a markup language similar to HTML, but without predefined tags to use. Instead, you define your own tags designed specifically for your needs. This is a powerful way to store data in a format that can be stored, searched, and shared. Most importantly, since the fundamental format of XML is standardized, if you share or transmit XML across systems or platforms, either locally or over the internet, the recipient can still parse the data due to the standardized XML syntax.
 There are many languages based on XML, including XHTML, MathML, SVG, RSS, and RDF. You can also define your own.
 
-JSON
+## JSON
 JSON stands for JavaScript Object Notation. JSON is a lightweight data interchange format. It's easy for humans to read and write. It's easy for machines to parse and generate.
 *Converting JSON string into Javascript object - JSON.parse()
 *object into a JSON string - JSON.stringify()
 
-HTTP status Codes
+##HTTP status Codes
 Used for authentication401 not authorization403
 
 
-API
+## API
 An application programming interface is a way for two or more computer programs or components to communicate with each other. It is a type of software interface, offering a service to other pieces of software.
 
 
-Browser storage types
-Local storage
+## Browser storage types
+# Local storage
 Local storage is a feature in web browsers that allows websites to store data locally on the user's device. This data persists even after the browser window is closed or the browser is restarted. It's a great way to store small amounts of user-specific data that doesn't need to be sent to the server every time.
 Here are some key points about local storage:
 Advantages:
@@ -69,7 +69,7 @@ localStorage.clear();
 
 
 
-Session Storage
+# Session Storage
 
 Specific Session Storage Details:
 I understand you're looking for more specific details about session storage. Here's a breakdown of some key aspects:
@@ -88,7 +88,7 @@ Private browsing mode: Session storage is disabled in private browsing mode.
 Cross-origin requests: Session storage data cannot be accessed directly from cross-origin requests.
 Cookies vs. Session Storage: Session storage is better for temporary data that shouldn't persist across sessions, while cookies are better for user preferences and tracking.
 
-Cookies
+# Cookies
 Cookies are small pieces of data that websites store on a user's device (computer, phone, etc.). They are widely used for various purposes, including:
 1. User Authentication: Websites can store a unique identifier in a cookie to keep users logged in, eliminating the need to re-enter login credentials for each visit.
 2. User Preferences: Websites can store user preferences like language, theme, or location in a cookie, providing a personalized experience.
@@ -110,7 +110,7 @@ LocalStorage and SessionStorage: These web storage mechanisms offer similar func
 Server-Side Session Management: Websites can manage user sessions on the server without relying on cookies.
 
 
-Indexed DB
+# Indexed DB
 IndexedDB is a low-level API in web browsers that allows you to store structured data persistently on the user's device. It's more powerful and flexible than browser storage solutions like LocalStorage and SessionStorage, making it suitable for storing larger amounts of complex data.
 Key Features:
 Persistence: Data remains even after the browser is closed or restarted.
@@ -152,7 +152,7 @@ Retrieve data: Use objectStore.get(key) or objectStore.getAll() to retrieve data
 Update data: Use objectStore.put(data, key) to update data.
 Delete data: Use objectStore.delete(key) to delete data.
 
-Web SQL (Deprecated):
+# Web SQL (Deprecated):
 Web SQL was a relational database API for web browsers, but it has been deprecated and is no longer recommended for use. IndexedDB is the recommended alternative for client-side storage.
 
 Browser Cache
@@ -162,7 +162,7 @@ Session works(statefull)
 In the context of web development, a session is a mechanism that allows the server to store and retrieve information about the state of a user's interaction with a website. Sessions are used to maintain user-specific data across multiple requests and responses.
 
 
-Http
+## Http
 HTTP, or Hypertext Transfer Protocol, is an application layer protocol used for transmitting hypermedia documents, such as HTML. It is the foundation of data communication on the World Wide Web and is used for communication between web browsers and servers. Here are key aspects of HTTP:
 
 
@@ -218,7 +218,7 @@ HTTP is a fundamental protocol for web communication, and its principles and con
 
 
 
-Https
+## Https
 HTTP (Hypertext Transfer Protocol) and HTTPS (Hypertext Transfer Protocol Secure) are both protocols used for communication over the web, but they differ in terms of security and how data is transmitted.
 
 HTTP (Hypertext Transfer Protocol):
@@ -293,7 +293,7 @@ To improve performance, some protocols (like TLS) support session resumption. In
 By employing these cryptographic mechanisms, HTTPS ensures that the data exchanged between the client and server is secure and protected from eavesdropping, tampering, and other security threats. This is particularly important for websites that handle sensitive information, such as login credentials, personal data, or financial transactions.
 
 
-SSL/TLS
+## SSL/TLS
 SSL (Secure Sockets Layer) and TLS (Transport Layer Security) are cryptographic protocols designed to provide secure communication over a computer network. They are commonly used to secure data transfers over the internet, particularly in applications like web browsing, email, and other network protocols. Here are key points about SSL/TLS:
 
 Purpose:
@@ -326,7 +326,7 @@ TLS supports forward secrecy, which ensures that even if an attacker compromises
 In summary, SSL/TLS protocols are fundamental to securing internet communications, providing encryption, authentication, and data integrity. TLS, being the more modern and secure protocol, is widely adopted and recommended for secure data transfer.
 
 
-Rest
+## Rest
 REST, or Representational State Transfer, is an architectural style for designing networked applications. It was introduced by Roy Fielding in his doctoral dissertation in 2000. REST is not a standard but rather a set of principles and constraints that guide the design of scalable and maintainable web services. Key concepts in REST include resources, stateless communication, and a uniform interface. Here are some fundamental aspects of REST:
 
 Resources:
@@ -432,7 +432,7 @@ Server-side applications need to be configured to handle CORS. This may involve 
 CORS is an essential aspect of web security, enabling the controlled sharing of resources across different origins while protecting against unauthorized access and potential security vulnerabilities.
 
 
-Port number
+## Port number
 The "port number" is a numeric identifier associated with a specific process or service on a computer in a network. It is used to distinguish different services running on the same device. In networking, the combination of an IP address and a port number is referred to as a "socket."
 
 Or
@@ -478,7 +478,7 @@ Some applications may use dynamic ports, meaning they don't have a fixed, predef
 For web servers like Apache and Nginx, they typically use port 80 for HTTP and port 443 for HTTPS. However, you can configure them to listen on different ports if needed. For example, if you configure Apache to listen on port 8080, you would access the web server using "http://example.com:8080" instead of the default "http://example.com."
 
 
-transpiler vs compiler vs interpreter
+## transpiler vs compiler vs interpreter
 Transpiler, compiler, and interpreter are all terms related to the translation and execution of code, but they represent different approaches to the process. Here are the key differences:
 
 Compiler:
@@ -507,7 +507,7 @@ Transpiler (Source-to-Source Compiler): Translates source code from one programm
 It's worth noting that modern language implementations often use a combination of these approaches. For example, some languages may be initially compiled to an intermediate code, which is then interpreted or Just-In-Time (JIT) compiled during execution for improved performance.
 
 
-Url,uri,urn
+## Url,uri,urn
 URL (Uniform Resource Locator):
 
 A URL is a specific type of Uniform Resource Identifier (URI) that provides the means to locate and retrieve a resource on the web. It specifies the protocol used to access the resource (e.g., HTTP, HTTPS), the domain or IP address, and the path to the resource.
@@ -526,7 +526,7 @@ URL (Uniform Resource Locator): Specifies how to access a resource on the web.
 URI (Uniform Resource Identifier): A generic term for any identifier that uniquely identifies a resource.
 URN (Uniform Resource Name): A specific type of URI that provides a persistent identifier for a resource by name.
 
-Webpack and babel
+## Webpack and babel
 Webpack and Babel are commonly used tools in the JavaScript ecosystem, often used together to build and bundle modern web applications. Let's explore each tool's role and how they work together:
 
 Webpack:
@@ -612,7 +612,7 @@ ESBuild is a fast JavaScript bundler and minifier written in Go. It is known for
 Choosing a JavaScript bundler depends on the specific needs of your project, the level of configuration you require, and the features provided by the bundler. Webpack remains a popular choice for its flexibility and extensive ecosystem. However, newer tools like Parcel, Rollup, and others have gained popularity for their simplicity and specific optimizations.
 
 
-Jwt
+## Jwt
 JWT stands for JSON Web Token. It is a compact, URL-safe means of representing claims to be transferred between two parties. JWTs are often used for authentication and authorization purposes in web development.
 
 Here are the key components and characteristics of JWT:
@@ -650,7 +650,7 @@ It's essential to handle JWTs securely, especially with regards to how they are 
 JWTs provide a flexible and standardized way to represent information about users and their permissions. Their simplicity, compactness, and ease of integration have contributed to their popularity in modern web development.
 
 
-Bcrypt 
+## Bcrypt 
 Bcrypt is a password-hashing function designed to securely hash passwords. It's widely used in the field of cryptography and is particularly well-suited for securely storing passwords in databases. Bcrypt incorporates several security features to protect against common password-related vulnerabilities. Here are some key features of bcrypt:
 
 Salting:
@@ -673,7 +673,7 @@ Bcrypt is commonly used in web development, particularly for securely storing us
 Thread vs cores
 Threads and cores are related concepts in the context of computing, particularly in the design and performance of processors. Let's explore the differences between threads and cores:
 
-Core:
+## Core:
 
 A core is an independent processing unit within a central processing unit (CPU). Modern CPUs can have multiple cores, and each core is capable of executing its own set of instructions simultaneously.
 Having multiple cores allows a CPU to perform multiple tasks in parallel, enhancing overall processing speed.
@@ -696,7 +696,7 @@ Task Parallelism vs Data Parallelism: Multiple threads can be used for task para
 In summary, cores and threads work together to enhance the processing capabilities of a CPU. Multiple cores allow for parallel processing, and multiple threads within a process (when executed on multiple cores) allow for concurrent execution of tasks, leading to improved performance and responsiveness in modern computing systems.
 
 
-Oauth
+## Oauth
 OAuth (Open Authorization) is an open standard protocol that allows third-party applications to obtain limited access to a user's resources, without exposing the user's credentials. It is commonly used for delegated authorization, enabling users to grant access to their resources on one website or application to another website or application without sharing their credentials, such as passwords.
 
 OAuth operates by allowing the third-party application to obtain access tokens, which are then used to access the user's protected resources. The process involves several key components and steps:
@@ -1037,7 +1037,7 @@ Real-time data transfer with relatively low latency.
 Use cases like chat applications, live updates, and collaborative tools where P2P is not necessary.
 
 
-WebRTC
+## WebRTC
 WebRTC (Web Real-Time Communication) is a technology that enables peer-to-peer (P2P) communication directly between browsers or other endpoints, primarily for audio, video, and data sharing.
 
 Key Features:
