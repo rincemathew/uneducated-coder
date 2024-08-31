@@ -1,21 +1,23 @@
-What is a DATABASE?
+
+
+### What is a DATABASE?
 A database is an organized collection of structured information, or data, typically stored electronically in a computer system. A database is usually controlled by a database management system (DBMS).
 
-What is DBMS?
+### What is DBMS?
 Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data. A DBMS serves as an interface between an end-user and a database, allowing users to create, read, update, and delete data in the database.
 
-DBMS vs RDBMS
+### DBMS vs RDBMS
 The main difference between a DBMS(Database Management System) and an RDBMS(Relational Database Management system) is that a DBMS is a software application used to store, retrieve, and manage data in a database, while an RDBMS is a type of DBMS that stores data in a relational database.
 
-What is SQL?
+### What is SQL?
 Structured query language (SQL) is a programming language for storing and processing information in a relational database. A relational database stores information in tabular form, with rows and columns representing different data attributes and the various relationships between the data values.
 Eg: oracle database, mySQL, Microsoft SQLServer, PostgresSQL
 
-What is nonSQL?
+### What is nonSQL?
 NoSQL, also referred to as “not only SQL”, “non-SQL”, is an approach to database design that enables the storage and querying of data outside the traditional structures found in relational databases.
 eg:MongoDB, HBase, Neo4j, Cassandra, etc
 
-Difference between sql and non sql?
+### Difference between sql and non sql?
 Type 
 SQL databases are primarily called Relational Databases (RDBMS); whereas NoSQL databases are primarily called non-relational or distributed databases. 
 Language 
@@ -46,7 +48,7 @@ Major challenges
 4. managing the database in a production environment.
 
 
-ORM and ODM 
+### ORM and ODM 
 ORM (Object-Relational Mapping) and ODM (Object-Document Mapping) are both programming techniques that allow developers to interact with databases using object-oriented paradigms. However, they are used in different contexts: ORM is associated with relational databases, while ODM is associated with document databases.
 
 ORM (Object-Relational Mapping):
