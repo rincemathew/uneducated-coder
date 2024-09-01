@@ -1,5 +1,10 @@
 # JAVSCRIPT
 
+## common topic realted to JS
+
+### undefinded vs null
+
+
 ## javascript basics
 
 ## javascript Asynchronous
