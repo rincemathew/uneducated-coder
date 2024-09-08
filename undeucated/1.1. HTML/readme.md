@@ -50,6 +50,9 @@ html is the root of html document
 
 metadata, character set
 
+
+container body,header,footer etc
+
 ////
 ASCII-based plain text are being replaced with Unicode as a universal character encoding.
 <div> = division
