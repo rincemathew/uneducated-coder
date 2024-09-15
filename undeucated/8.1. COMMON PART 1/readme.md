@@ -1,3 +1,7 @@
+## API
+An application programming interface is a way for two or more computer programs or components to communicate with each other. It is a type of software interface, offering a service to other pieces of software.
+
+
 
 ## AJAX (Asynchronous javascript and XML)
 AJAX is not a programming language. It's a technology for developing better, faster and more interactive web applications using HTML, CSS, JS, and XML.
@@ -30,9 +34,6 @@ JSON stands for JavaScript Object Notation. JSON is a lightweight data interchan
 ##HTTP status Codes
 Used for authentication401 not authorization403
 
-
-## API
-An application programming interface is a way for two or more computer programs or components to communicate with each other. It is a type of software interface, offering a service to other pieces of software.
 
 
 ## Browser storage types
