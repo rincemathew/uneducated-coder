@@ -1,38 +1,49 @@
-## API
-An application programming interface is a way for two or more computer programs or components to communicate with each other. It is a type of software interface, offering a service to other pieces of software.
+# Common in Computer Science
 
 
-
-## AJAX (Asynchronous javascript and XML)
-AJAX is not a programming language. It's a technology for developing better, faster and more interactive web applications using HTML, CSS, JS, and XML.
-Asynchronous means the web application can send and receive data from the web server without refreshing the page. This background process of sending and receiving data from the server along with updating different sections of a web page defines the features of Ajax.
-AJAX makes use of a browser build-in XMLHttpRequest object to request data from a Web Server and HTML DOM to display or use the data.
-
-function changeContent() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-     document.getElementById("foo").innerHTML = this.responseText;
-    }
-  };
-  xhttp.open("GET", "content.txt", true);
-  xhttp.send();
-}
-
-Many modern web applications still use AJAX, but it's worth mentioning that newer technologies like Fetch API and async/await in JavaScript have become popular and offer more modern and flexible ways to handle asynchronous operations. The Fetch API, for example, is a native JavaScript API for making HTTP requests and is often considered a more modern alternative to traditional AJAX.
+|  content  | topics |
+| -----| ----- |
+| [API](#api) | |
+| [Rest API](#rest-api) | |
 
 
-## XML
-XML (Extensible Markup Language) is a markup language similar to HTML, but without predefined tags to use. Instead, you define your own tags designed specifically for your needs. This is a powerful way to store data in a format that can be stored, searched, and shared. Most importantly, since the fundamental format of XML is standardized, if you share or transmit XML across systems or platforms, either locally or over the internet, the recipient can still parse the data due to the standardized XML syntax.
-There are many languages based on XML, including XHTML, MathML, SVG, RSS, and RDF. You can also define your own.
+### API
+An 'Application Programming Interface' is a way(or principle) for two or more computer programs or components to communicate with each other. It is a type of software interface, offering a service to other pieces of software.
 
-## JSON
-JSON stands for JavaScript Object Notation. JSON is a lightweight data interchange format. It's easy for humans to read and write. It's easy for machines to parse and generate.
-*Converting JSON string into Javascript object - JSON.parse()
-*object into a JSON string - JSON.stringify()
+## Rest API
+REST, or Representational State Transfer, is an architectural style for designing networked applications. It was introduced by Roy Fielding in his doctoral dissertation in 2000. REST is not a standard but rather a set of principles and constraints that guide the design of scalable and maintainable web services. Key concepts in REST include resources, stateless communication, and a uniform interface. Here are some fundamental aspects of REST:
 
-##HTTP status Codes
-Used for authentication401 not authorization403
+Resources:
+
+In REST, everything is considered a resource, which is an entity or concept that can be identified by a URI (Uniform Resource Identifier). Resources can be tangible entities like documents or abstract concepts like services.
+Stateless Communication:
+
+RESTful systems are designed to be stateless, meaning that each request from a client to a server contains all the information needed to understand and fulfill the request. The server doesn't store any information about the client between requests.
+Uniform Interface:
+
+REST emphasizes a uniform and consistent interface to promote simplicity and scalability. This uniform interface is characterized by a set of constraints, including:
+Resource Identification: Resources are identified using URIs.
+Resource Manipulation through Representations: Resources can have multiple representations (e.g., JSON, XML), and clients interact with these representations.
+Stateless Communication: Each request from a client contains all the information needed by the server to fulfill that request.
+Hypermedia as the Engine of Application State (HATEOAS): The server provides hypermedia links in the response to guide the client's interaction with the application.
+HTTP Methods:
+
+RESTful APIs use standard HTTP methods (GET, POST, PUT, DELETE, etc.) to perform operations on resources. Each HTTP method has a specific meaning in the context of a resource.
+Stateless Server:
+
+The server does not store any information about the client's state between requests. Each request from the client is independent, and the server responds based solely on the information provided in the request.
+Representation:
+
+Resources can have multiple representations, and clients interact with these representations. Common representations include JSON and XML.
+Scalability:
+
+RESTful architectures are designed to be scalable and can handle a large number of clients and resources.
+HATEOAS (Hypermedia As The Engine Of Application State):
+
+HATEOAS is a constraint in REST where the server provides hypermedia links in the response, allowing the client to navigate the application's state and discover available actions dynamically.
+RESTful principles are commonly used in the design of web services and APIs. APIs following REST principles are often referred to as RESTful APIs. They provide a straightforward and scalable approach to building and consuming web services.
+
+
 
 
 
@@ -327,38 +338,6 @@ TLS supports forward secrecy, which ensures that even if an attacker compromises
 In summary, SSL/TLS protocols are fundamental to securing internet communications, providing encryption, authentication, and data integrity. TLS, being the more modern and secure protocol, is widely adopted and recommended for secure data transfer.
 
 
-## Rest
-REST, or Representational State Transfer, is an architectural style for designing networked applications. It was introduced by Roy Fielding in his doctoral dissertation in 2000. REST is not a standard but rather a set of principles and constraints that guide the design of scalable and maintainable web services. Key concepts in REST include resources, stateless communication, and a uniform interface. Here are some fundamental aspects of REST:
-
-Resources:
-
-In REST, everything is considered a resource, which is an entity or concept that can be identified by a URI (Uniform Resource Identifier). Resources can be tangible entities like documents or abstract concepts like services.
-Stateless Communication:
-
-RESTful systems are designed to be stateless, meaning that each request from a client to a server contains all the information needed to understand and fulfill the request. The server doesn't store any information about the client between requests.
-Uniform Interface:
-
-REST emphasizes a uniform and consistent interface to promote simplicity and scalability. This uniform interface is characterized by a set of constraints, including:
-Resource Identification: Resources are identified using URIs.
-Resource Manipulation through Representations: Resources can have multiple representations (e.g., JSON, XML), and clients interact with these representations.
-Stateless Communication: Each request from a client contains all the information needed by the server to fulfill that request.
-Hypermedia as the Engine of Application State (HATEOAS): The server provides hypermedia links in the response to guide the client's interaction with the application.
-HTTP Methods:
-
-RESTful APIs use standard HTTP methods (GET, POST, PUT, DELETE, etc.) to perform operations on resources. Each HTTP method has a specific meaning in the context of a resource.
-Stateless Server:
-
-The server does not store any information about the client's state between requests. Each request from the client is independent, and the server responds based solely on the information provided in the request.
-Representation:
-
-Resources can have multiple representations, and clients interact with these representations. Common representations include JSON and XML.
-Scalability:
-
-RESTful architectures are designed to be scalable and can handle a large number of clients and resources.
-HATEOAS (Hypermedia As The Engine Of Application State):
-
-HATEOAS is a constraint in REST where the server provides hypermedia links in the response, allowing the client to navigate the application's state and discover available actions dynamically.
-RESTful principles are commonly used in the design of web services and APIs. APIs following REST principles are often referred to as RESTful APIs. They provide a straightforward and scalable approach to building and consuming web services.
 
 Http parts
 HTTP (Hypertext Transfer Protocol) is a protocol used for communication on the World Wide Web. It defines how messages are formatted and transmitted, and how web servers and browsers should respond to various commands. HTTP consists of multiple parts, each contributing to the communication between clients and servers. Here are the main components of HTTP:
