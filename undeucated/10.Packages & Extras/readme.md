@@ -57,3 +57,14 @@ cors chrome plugin
 
 https://resumegenius.com/resume-templates
 https://www.livecareer.com/resume/builder
+
+
+### Free image generator open souce ai model "FLUX"
+#### Developer website 
+ https://blackforestlabs.ai/
+
+#### Other website using this models
+https://piclumen.com/app/image-generator/create
+https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev
+https://dev.maquae.com/flux-pro/fluxpro.php
+https://fluxpro.art/
