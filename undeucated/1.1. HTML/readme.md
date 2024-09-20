@@ -59,6 +59,17 @@ ASCII-based plain text are being replaced with Unicode as a universal character 
 <b> vs <strong>
 <em> vs <i>
 
+#### group things
+quotes
+unordered list
+ordered list
+association list dl, dt, dd
+
+
+
+-------------------
+
+
 day1
 Introduction to Internet, Browser, Domain, HTML
 1. Understanding Basics of web development
