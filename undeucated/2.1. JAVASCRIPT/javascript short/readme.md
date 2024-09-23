@@ -67,6 +67,22 @@ typeof operator is user to determine the type of each variable.
 #### What is type coercion in JS?
 Type coercion is the automatic conversion of values from one data type to anoter during certain operations or comparisons.
 
+#### What are operators? What are the types of operators in JS?
+
+#### What is the difference between unary, binary and ternary operators?
+
+#### What is short-circuit evaluation in JS?
+
+#### What is operator precedence?
+
+#### What are the types of conditions statements in JS?
+
+#### When to use which type of conditions statements in real applications?
+
+#### What is the difference between == and ===?
+
+#### What is the differnce between Spread and rest operatior in JS?
 
 
-25
+
+28
