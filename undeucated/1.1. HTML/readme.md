@@ -66,6 +66,11 @@ ordered list
 association list dl, dt, dd
 
 
+<em>, <strong>, <small>, <br>
+
+<!--- --->
+
+<span>
 
 -------------------
 

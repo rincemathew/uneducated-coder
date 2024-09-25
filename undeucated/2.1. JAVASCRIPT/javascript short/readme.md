@@ -102,6 +102,30 @@ Passing multiple arguments to a function
 
 The rest operator is used in function parameters to collect all remainging arguments into an array.
 
+#### What are Arrays in JS? How to get, add and remove elements from arrays?
 
+#### What is the indexOf() method of an Array?
+
+#### What is the difference between find() and filter() methods of an Array?
+
+#### What is the slice() method of an Array?
+
+#### What is the difference between push() and concat() methods of an Array?
+
+#### What is the difference between pop() and shift() methods of an Array?
+
+#### What is the splice() method of an Array?
+
+#### What is the differnce between slice() and splice() methods of an Array?
+
+#### What is the differnce between map() nad forEach() array methods?
+
+#### How to sort and reverse an array?
+
+#### What is Array Destructuring in JS?
+
+#### What are arry-like objects in JS?
+
+#### How to convert and array-like object into an Array?
 
 46
