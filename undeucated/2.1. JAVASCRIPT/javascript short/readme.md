@@ -103,29 +103,55 @@ Passing multiple arguments to a function
 The rest operator is used in function parameters to collect all remainging arguments into an array.
 
 #### What are Arrays in JS? How to get, add and remove elements from arrays?
+An array is a data type that allows you to store multiple values in a single variable.
+Get - indexOf(), find(), filter(), slice()
+Add - push(), concat()
+Remove - pop(), shift(), splice()
+Modify - map(), forEach()
+others - join(), length, sort(), reverse(), reduce(), some(), every()
 
 #### What is the indexOf() method of an Array?
+indexOf() method gets the index of a specified element in the array.
 
 #### What is the difference between find() and filter() methods of an Array?
+find() method get the first element that satisfies a condition.
+filter() method get an array of elements that satisfies a condition.
 
 #### What is the slice() method of an Array?
+slice() method get a subset of the arry from start index to end index(end not included)
 
 #### What is the difference between push() and concat() methods of an Array?
+Push() will modify the original array itself.
+concat() method will create the new array and not modify the original array.
 
 #### What is the difference between pop() and shift() methods of an Array?
+pop() will remove the last element of the array.
+shift() will remove the first element of the array.
 
 #### What is the splice() method of an Array?
+The splice() method is used to addd, remove, or replace elements in an array.
 
 #### What is the differnce between slice() and splice() methods of an Array?
+THe slice() method is used get a subset of the array from the start index to the end index(end not included)
+The splice() method is used to addd, remove, or replace elements in an array.
 
 #### What is the differnce between map() nad forEach() array methods?
+The map() method is used when you want to modify each element of array and create a new array with the modified values.
+The forEach() method is used when you want to perform some operation on each element of an array without creating a new array.
 
 #### How to sort and reverse an array?
+Array can be sorted or reversed by using sort() and reverse() methods of array.
 
 #### What is Array Destructuring in JS?
+Array destructuring allows you to extract elements from an array and assign them to individual variables in a single statement.
 
 #### What are arry-like objects in JS?
+Array-like object are objects that have indexed elements and a length property, similar to arrays, but they may not have all the methods of arrays like push(), pop() and others
+eg:arguments, strings, HTML collections.
 
 #### How to convert and array-like object into an Array?
+Array.from()
+Spread syntax (...)
+Array.prototype.slice.call()
 
-46
+1:11:47
