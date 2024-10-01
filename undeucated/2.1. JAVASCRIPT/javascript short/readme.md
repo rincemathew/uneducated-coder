@@ -154,4 +154,25 @@ Array.from()
 Spread syntax (...)
 Array.prototype.slice.call()
 
+#### What is a loop? What are the types of loops in JS?
+
+
+#### What is the difference between while and for loops?
+
+
+#### What is the difference between while and do-while loops?
+
+
+#### What is the difference between break and continue statement?
+
+#### What is the difference between for and for ...if loops in JS?
+
+
+#### What is the difference between for...of and for...in loop?
+
+#### What is forEach method? Compare it with for...of and for..in loop?
+
+#### When to use for...of loop and when to use forEach method in application?
+
+Loops
 1:11:47
