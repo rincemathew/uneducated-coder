@@ -72,6 +72,16 @@ association list dl, dt, dd
 
 <span>
 
+http
+
+hypertext - text that references other text which the user agent enables the user to immediately access.
+
+protocol - a system of rules for two entities to communicate.
+
+server - a computer or software that manages access to services and resources( like documents, images, and video)
+
+hypertext transfer protocol - a set of rules for how two entities (client and server) can transfer text between themselves. Text which can link user to other related text.
+
 -------------------
 
 
