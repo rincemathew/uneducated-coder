@@ -154,14 +154,21 @@ Array.from()
 Spread syntax (...)
 Array.prototype.slice.call()
 
-#### What is a loop? What are the types of loops in JS?
+### loops
 
+#### What is a loop? What are the types of loops in JS?
+A loop is programming way to run a piece of code repeatedly untile a certain condition is met.
+JS loops - for, while, do-while, for-of, for-in
 
 #### What is the difference between while and for loops?
+for loop allows to iterate a block of code a specific number of times.
 
+while loop execute a block of code while a certain condition is true.
 
 #### What is the difference between while and do-while loops?
+while loop execute a block of code while a certain condition is true.
 
+The do-while loop is similar to the while loop, except that the block of code is executed at least once, even if the codition is false.
 
 #### What is the difference between break and continue statement?
 
@@ -175,4 +182,4 @@ Array.prototype.slice.call()
 #### When to use for...of loop and when to use forEach method in application?
 
 Loops
-1:11:47
+1:17:37
