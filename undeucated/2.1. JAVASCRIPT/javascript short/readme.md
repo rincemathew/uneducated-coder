@@ -171,15 +171,43 @@ while loop execute a block of code while a certain condition is true.
 The do-while loop is similar to the while loop, except that the block of code is executed at least once, even if the codition is false.
 
 #### What is the difference between break and continue statement?
+The break statement is used to terminate the loop.
+the continue statement is used to skip the current iteration of the loop and move on to the next iteration.
 
 #### What is the difference between for and for ...if loops in JS?
 
 
 #### What is the difference between for...of and for...in loop?
+for..of loop is used to loop through the values of an object like arrays,strings.
+it allows you to access each value directly without having to use an index.
+
+for...in loop is used to loop through the properties if an object.
+it allows you to iterate over the keys of an object and access the values associated by using keys as the index.
 
 #### What is forEach method? Compare it with for...of and for..in loop?
+forEach() is a method available on arrays or object that allows you to iterate over each element of the array and perform some action on each element.
 
 #### When to use for...of loop and when to use forEach method in application?
+for..of loops is suitable when you need more control over the loop, such as using break statement or continue statement inside.
+
+forEach method iterate over each element of the array and perform some action on each element.
+
+#### What are functions is JS? what are the types of functions?
+
+#### What is the difference between named and anonymous functions? when to use what is applications?
+
+#### What is function expressions in JS?
+
+#### What are Arrow funtions in JS? What is it use?
+
+#### What are Callback functions? What is it use?
+
+#### What is Higher-order function in JS?
+
+#### What is the difference between arguments and parameters?
+
+#### in how many ways can you pass arguments to a function?
 
 Loops
-1:17:37
+functions
+1:26:37
