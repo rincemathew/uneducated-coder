@@ -77,3 +77,9 @@ AI is the broadest concept, encompassing any technique that allows machines to m
 Machine Learning is a subset of AI, focusing on systems that can learn from data and improve their performance without explicit programming.
 Deep Learning is a more advanced form of machine learning, specialized in using neural networks with many layers to handle large, complex datasets.
 Data Science covers the process of extracting insights from data, often using machine learning models as part of the process but also involving significant statistical and data manipulation skills.
+
+
+calculations - numpy,pandas
+deep lerning - tensorflow, opencv, karas
+computer vison - opencv, pillow
+nlp - huggingface, nltk, spacy

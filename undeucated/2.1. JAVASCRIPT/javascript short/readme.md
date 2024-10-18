@@ -208,6 +208,5 @@ forEach method iterate over each element of the array and perform some action on
 
 #### in how many ways can you pass arguments to a function?
 
-Loops
 functions
 1:26:37
