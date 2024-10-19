@@ -193,20 +193,46 @@ for..of loops is suitable when you need more control over the loop, such as usin
 forEach method iterate over each element of the array and perform some action on each element.
 
 #### What are functions is JS? what are the types of functions?
+A function is a reusable block of code that performs a specific task.
+
+types - Names function, Anonymous function, function expression, Arrow Function, IIFE, Callback Function, Higher-Order Function.
 
 #### What is the difference between named and anonymous functions? when to use what is applications?
+Named Functions have a name identifier.
+use named functions for big and complex logics.
+Use when you want to reuse one function at multiple places.
+
+Anonymous functions do not have a name identifier and cannot be referenced directly by name.
+Use anonymous functions for small logics.
+Use when want to use a function in a single place.
 
 #### What is function expressions in JS?
+A function expression is a way to define a function by assigning it to a variable.
 
 #### What are Arrow funtions in JS? What is it use?
+Arrow functions, also know as fat arrow functions, is a simpler and shorter way for defining functions in Javascript.
 
 #### What are Callback functions? What is it use?
+
 
 #### What is Higher-order function in JS?
 
 #### What is the difference between arguments and parameters?
 
 #### in how many ways can you pass arguments to a function?
+
+#### How do you use default parameters in a function?
+
+#### What is the use of event handling in JS?
+
+#### What are First-Class functions in JS?
+
+#### What are Pure and Impure functions in JS?
+
+
+#### What is Function Curring in JS?
+
+#### What are call, apply, bind methods in JS?
 
 functions
 1:26:37
