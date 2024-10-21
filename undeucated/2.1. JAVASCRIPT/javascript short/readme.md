@@ -261,6 +261,19 @@ These methods provide a way to manipulate the this value and pass arguments to f
 
 
 #### string
+#### What is a String?
 
-functions
+#### What are template literals and string interpolation in strings.
+
+#### what are the different between single quote (') double quote ("") and back ticks (``)
+
+#### What are some important string operations in JS?
+
+#### What is string immutability?
+
+#### In how many ways you can concatenate strings?
+
+
+
+
 1:54:10
