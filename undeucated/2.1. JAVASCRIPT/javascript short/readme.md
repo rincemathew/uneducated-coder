@@ -213,26 +213,54 @@ A function expression is a way to define a function by assigning it to a variabl
 Arrow functions, also know as fat arrow functions, is a simpler and shorter way for defining functions in Javascript.
 
 #### What are Callback functions? What is it use?
-
+A callback function is a function that is passed as an argument to another function.
 
 #### What is Higher-order function in JS?
+Take one or more functions as arguments or Return a function as a result.
 
 #### What is the difference between arguments and parameters?
+Parameters are the placeholders defined in the function declaration.
+
+Arguments are the actual values passed to a function when it is invoked or called.
 
 #### in how many ways can you pass arguments to a function?
+positional arguments
+Named arguments
+arguments object
 
 #### How do you use default parameters in a function?
+In javascript, default parameters allow you to specify default values for function parameters.
 
 #### What is the use of event handling in JS?
+Event handling is the process of responding to user actions in a web page.
+The addEventListener method of javascript allows to attach an event name and with the function you want to perform on that event.
 
 #### What are First-Class functions in JS?
+A programming language is said to have First-class functions if functions in that languages are trated like other varibales.
+
+like Assignable, passable as Arguments, returnable as values
 
 #### What are Pure and Impure functions in JS?
+A pure function is a function that always produces the same output for the same input.
+Pure functions cannot modify the state.
+Pure functions cannot have side effects.
 
+An impure functions, can produce different outputs for the same input.
+Impure functions can modify the state.
+Impure functions can have side effects.
 
 #### What is Function Curring in JS?
+Curring in Javascript transofroms a function with multiple arguments into a nested seried of functions, each taking a single arguemnt.
+
+Advantage: Reusability, modularity and specialization. Big, complex functions with multiple argumets can be broken down into small, reusable functions with fewer arguments.
 
 #### What are call, apply, bind methods in JS?
+call, apply and bind are three methods in javascript that are used to work with functions and control how they are invoked and what cotext they operate in.
+
+These methods provide a way to manipulate the this value and pass arguments to functions.
+
+
+#### string
 
 functions
-1:26:37
+1:54:10
