@@ -274,6 +274,94 @@ These methods provide a way to manipulate the this value and pass arguments to f
 #### In how many ways you can concatenate strings?
 
 
+#### DOM
+
+#### What is DOM? What is the difference between HTML and DOM?
+
+#### How do you select, modify, create and remove DOM elements?
+
+#### What are selectors in JS?
+
+#### What is the differnce between getElementById, getElementsByClassName and getElementsByTagName?
+
+#### What is the difference between querySelector() and querySelectorAll()?
+
+#### What are the methods to modify elements properties and attributes?
+
+#### What is the difference between innerHTML and textContent?
+
+#### How to add and remove properties of HTML elements in the DOM using JS?
+
+#### How to add and remove properties of HTML elements in the DOM using JS?
+
+#### How to add and remove style from HTML elements in DOM using JS?
+
+#### How to create new elements in DOM using JS? What is the dofference between createElement() and cloneNode()?
+
+#### What is the difference between createElement() and createTextNode()?
+
+#### Error handling
+
+#### What is Error Handling in JS?
+
+#### What is the role of finally block in JS?
+
+#### What is the purpose of the throw statement in JS?
+
+#### What is Error propagation in JS?
+
+#### What are the best practices for error handling?
+
+#### What are the different types of errors in JS?
+
+#### What are objects in JS?
+
+#### In how many ways we can create an object?
+
+#### What is the difference between an array and an object?
+
+#### What is the difference between array and objects?
+
+#### How do you add or modify or delete properties of and object?
+
+#### Explain the difference between dot notation and bracket notation?
+
+#### What are some common methods to iterate over the properties of an object?
+
+#### How do you check if a property exists in an object?
+
+#### How do you clone or copy an object?
+
+#### What is the difference between deep copy and shallow copy on JS?
+
+#### What is Set Object in JS?
+
+#### What is Map Object in JS?
+
+#### What is the differnce between Map and Object in JS?
+
+#### Events
+#### What are Events?  How are events triggered?
+
+#### What are the types of events in JS?
+
+#### What is Event Object in JS?
+
+#### What is Event Delegation in JS?
+
+#### What is Event Bubbling in JS?
+
+#### How can you stop event propagation or event bubbling in JS?
+
+#### What is Event Capturing in JS?
+
+#### What is the purpose of the event.preventDefault() method in JS?
+
+#### What is the use of "this" keyword in the context of event handling in JS?
+
+#### How to remove an event handler from an element in JS?
+
+
 
 
 1:54:10
