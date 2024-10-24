@@ -262,16 +262,21 @@ These methods provide a way to manipulate the this value and pass arguments to f
 
 #### string
 #### What is a String?
+A string is a data type used to store and manipulate date.
 
 #### What are template literals and string interpolation in strings.
+ ${} - A template literal, also know as a template string, is a feature introduced in ECMAScript 2015(ES6) for string interpolation and multiline strings in Javascript
 
 #### what are the different between single quote (') double quote ("") and back ticks (``)
 
 #### What are some important string operations in JS?
+substr(), substring()..........................
 
 #### What is string immutability?
 
+
 #### In how many ways you can concatenate strings?
++operator, concat() method, template literals, join() method
 
 
 #### DOM
@@ -364,4 +369,4 @@ These methods provide a way to manipulate the this value and pass arguments to f
 
 
 
-1:54:10
+2:02:00
