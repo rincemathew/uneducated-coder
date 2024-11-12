@@ -154,6 +154,25 @@ lifting the state up (concept)
 
 can we have nested context and context inside context
 
+redux devtool extension 
+jest
+react testing library 
+enzyme - old testing library 
+why test cases
+test driven development 
+
+types of testing
+e2e testing
+unit testing
+manual testing
+automated testing 
+integrated testing
+
+babel
+json vs js object
+.toBe(5)
+
+
 1:45
 ffffff
 
