@@ -21,7 +21,7 @@ tailwindcss
 
 ### react
 recharts
-
+https://www.chartjs.org/
 
 three js
 puppeteer
@@ -40,6 +40,15 @@ mongoose
 nodemon
 passport
 passport-jwt
+
+
+## Libriaries
+### Animantion
+three js - 3d animation library in a web browser using WebGL
+https://animejs.com/
+
+### Data visualization
+D3js
 
 
 manychat.com automation 
