@@ -4,6 +4,7 @@ Decimal system
 Why using this in computer 
 Transistors and switches
 Unary
+UTF-8
 ASCII
 unicode
 Why need of extensions like jpg,psd,png etc because it instructs computer to how to interpreted as follow

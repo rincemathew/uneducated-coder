@@ -1,11 +1,61 @@
-HTML
-HTML stands for HyperText Markup Language. It is used to design web pages using a markup language. HTML is a combination of Hypertext and Markup language. Hypertext defines the link between the web pages. The markup language is used to define the text document within the tag which defines the structure of web pages. HTML is used to structure the website and is therefore used for Web Development.
-https://html.spec.whatwg.org/
+# HTML
 
-markup language
+## HTML BASICS
+
+### HTML
+HTML stands for HyperText Markup Language. It is used to design web pages using a markup language. HTML is a combination of Hypertext and Markup language. Hypertext(Hypertext is text which contains links to other texts) defines the link between the web pages. The markup language is used to define the text document within the tag which defines the structure of web pages. HTML is used to structure the website and is therefore used for Web Development.
+https://html.spec.whatwg.org/
+https://en.wikipedia.org/wiki/Hypertext
+https://www.geeksforgeeks.org/what-is-hypertext/
+
+### Markup language
 A markup language is a set of rules(no logic in markup languages) governing what markup information may be included in a document and how it is combined with the content of the document in a way to facilitates use by humans and computer programs.
 A markup tag is a directive that contains snippet of code with a relative reference to an object in your store such as a variable, URL, image, or block.
 Eg:html, xml etc
+
+### What is <!DOCTYPE html>?
+<!DOCTYPE html> is a document type declaration (DOCTYPE) used in HTML to specify the version of HTML the document is written in. It is not a tag but an instruction to the web browser about what version of HTML the page is using.
+In modern web development, <!DOCTYPE html> is the declaration for HTML5.
+
+### <html> tag?
+The <html> tag is the root element of an HTML document. It represents the entire HTML structure and contains all the content of the web page, including metadata and visible content.
+other words
+The <html> tag defines the starting point of the HTML document, letting browsers understand how to process and render the content inside it.
+
+#### <html> attributes
+**lang**: Specifies the language of the document's content (e.g., lang="en" for English).
+##### Why Use lang Attribute?
+*Accessibility*: Screen readers and other assistive technologies use the lang attribute to read text in the correct language.
+*Search Engine Optimization (SEO)*: Search engines like Google may use the language attribute to provide more relevant search results to users.
+*Localization*: Browsers and translation tools use this attribute to understand the primary language of the page.
+Common Language Codes:
+The value of lang is based on the ISO 639-1 standard. Examples include:en: English, es: Spanish, fr: French, de: German, zh: Chinese, ar: Arabic
+**dir**: Defines the text direction (ltr for left-to-right, rtl for right-to-left languages like Arabic or Hebrew).
+
+### <meta> tag?
+The <meta> tag in HTML provides metadata about the web page. Metadata is information that helps browsers and search engines understand the content and behavior of the web page. The <meta> tag is always placed inside the <head> section and does not have a closing tag.
+Why Are <meta> Tags Important?
+Improved SEO: Help search engines understand your content better.
+Enhanced User Experience: Ensure pages are mobile-friendly and load properly.
+Social Media Sharing: Control how your page looks when shared on platforms like Facebook or Twitter.
+Accessibility: Specify important information for browsers and assistive technologies.
+
+eg:<meta http-equiv="refresh" content="3; url=https://example.com">
+this use for Automatically refreshes or redirects the page after a specified time.
+
+#### What is <meta name="viewport" content="width=device-width, initial-scale=1.0">?
+The <meta name="viewport" content="width=device-width, initial-scale=1.0"> tag is a crucial element for building responsive web pages that adapt well to different screen sizes, especially on mobile devices.
+**name="viewport"**:Specifies that this meta tag is for controlling the viewport, which is the user's visible area of a web page.
+**content="width=device-width"**:Sets the width of the viewport to be the same as the device's screen width. Ensures the content fits the screen size without unnecessary horizontal scrolling.
+**initial-scale=1.0"**:Sets the initial zoom level of the page. 1.0 means no zoom (the page appears at its actual size).
+
+#### 
+
+## HTML INDEPTH
+
+## HTML EXTRAS
+
+
 Text document
 
 Html vs html5
