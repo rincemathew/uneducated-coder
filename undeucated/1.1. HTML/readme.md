@@ -49,7 +49,11 @@ The <meta name="viewport" content="width=device-width, initial-scale=1.0"> tag i
 **content="width=device-width"**:Sets the width of the viewport to be the same as the device's screen width. Ensures the content fits the screen size without unnecessary horizontal scrolling.
 **initial-scale=1.0"**:Sets the initial zoom level of the page. 1.0 means no zoom (the page appears at its actual size).
 
-#### 
+#### <meta charset="UTF-8">?
+UTF-8 (Unicode Transformation Format-8-bit) is a character encoding standard that represents characters using one to four bytes.
+Character encoding is the process of assigning numbers to characters, such as letters, numbers, and symbols, so that computers can interpret them. This allows computers to store, transmit, and transform these characters.
+https://www.w3schools.com/charsets/ref_html_utf8.asp
+https://naveenr.net/unicode-character-set-and-utf-8-utf-16-utf-32-encoding/
 
 ## HTML INDEPTH
 
