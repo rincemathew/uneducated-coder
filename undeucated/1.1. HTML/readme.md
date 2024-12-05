@@ -55,6 +55,15 @@ Character encoding is the process of assigning numbers to characters, such as le
 https://www.w3schools.com/charsets/ref_html_utf8.asp
 https://naveenr.net/unicode-character-set-and-utf-8-utf-16-utf-32-encoding/
 
+### custom data attribute?
+It is part of the HTML5 data- attribute standard*, which allows developers to store custom data in HTML elements. These attributes are primarily used for embedding additional information that can be accessed via JavaScript.
+eg: <div class="cell" data-cell></div>
+
+#### async and defer
+Scripts loaded with the defer attribute will load in the order they appear on the page. They won't run until the page content has all loaded
+eg: <script src="script.js" defer></script>
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script
+
 ## HTML INDEPTH
 
 ## HTML EXTRAS
