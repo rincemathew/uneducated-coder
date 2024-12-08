@@ -145,6 +145,31 @@ server - a computer or software that manages access to services and resources( l
 
 hypertext transfer protocol - a set of rules for how two entities (client and server) can transfer text between themselves. Text which can link user to other related text.
 
+anchor tags, Hyperlinks, href
+
+rendering engine
+a computer program that trasnforms an html dicumet into a visual, interactive repersentation of the dicument for the user.
+eg: blink (chromium rendering engine), gecko(mozilla), webkit(safari)
+
+parse
+
+names character reference
+&lt; for >
+
+objects 
+A collection of data (information) and code (that accomplishes things) which together repersents something.
+
+Document object model
+an object model that repersents an html document, providing the abliity to examine and change the document as presented via the user agent.
+
+globel attributes 
+eg:class, id
+
+
+fragments #
+
+
+
 -------------------
 
 
