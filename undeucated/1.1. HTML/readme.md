@@ -168,6 +168,15 @@ eg:class, id
 
 fragments #
 
+accessibility
+THe ability to be accessed and used independently by people no matter their circumstances.
+
+payload
+the information, along with the request that the resource can then use if it chooses to do work.
+
+form
+the form element reperesnts a hyperlink that can be manipulated through a collection of form-associated elements, some of which can reperesent editable values that can be submitted to a server for processing.
+
 
 
 -------------------
