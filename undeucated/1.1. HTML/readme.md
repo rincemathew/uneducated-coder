@@ -177,6 +177,9 @@ the information, along with the request that the resource can then use if it cho
 form
 the form element reperesnts a hyperlink that can be manipulated through a collection of form-associated elements, some of which can reperesent editable values that can be submitted to a server for processing.
 
+dom maniputation
+changing the DOM tree after the HTML document has been parsed and the DOM has been created.
+
 
 
 -------------------

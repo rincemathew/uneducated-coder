@@ -282,24 +282,61 @@ substr(), substring()..........................
 #### DOM
 
 #### What is DOM? What is the difference between HTML and DOM?
+THe DOM(document object model) represents the web page as a tree-like structure that allows JavaScript to dynamcially access and manipulate the content and stucture of a web page.
 
 #### How do you select, modify, create and remove DOM elements?
+1.selecting Dom elements
+getElementById(id)
+querySelector(selector)
+querySelectorAll(selector)
+getElementsByClassName(className)
+getElementsByTagName(tagName)
+getElementsByName(name)
+
+2.Modify element properties and attributes
+textContent
+innnerHTML
+setAttribute(name, value)
+removeAttribute(name)
+style.property
+
+3.Creating and appending elements
+createElement(tagName)
+appendChild(node)
+cloneNode(deep)
+
+4.Removing elements
+remove()
+removeChild(node)
+
+5.Adding and removing event listeners
+addEventListener(type, listener)
+removeEventListener(type, listener)
 
 #### What are selectors in JS?
+selectors in JS help to get specific elements from DOM based on IDs, class name, tag names.
 
 #### What is the differnce between getElementById, getElementsByClassName and getElementsByTagName?
 
 #### What is the difference between querySelector() and querySelectorAll()?
 
 #### What are the methods to modify elements properties and attributes?
+textContent
+innerHTML
+setAttribute()
+removeAttribute()
+style.setProperty
+classList.add()
 
 #### What is the difference between innerHTML and textContent?
 
 #### How to add and remove properties of HTML elements in the DOM using JS?
-
-#### How to add and remove properties of HTML elements in the DOM using JS?
+setAttribute()
+removeAttribute()
 
 #### How to add and remove style from HTML elements in DOM using JS?
+style.setProperty
+classList.add()
 
 #### How to create new elements in DOM using JS? What is the dofference between createElement() and cloneNode()?
 
@@ -308,65 +345,113 @@ substr(), substring()..........................
 #### Error handling
 
 #### What is Error Handling in JS?
+Error handling is the process of managing errors
 
 #### What is the role of finally block in JS?
+finally, block is used to execute some code irrespective of error.
 
 #### What is the purpose of the throw statement in JS?
+The throw statement stops the execution of the current function and passes the error to the catch block of calling function.
 
 #### What is Error propagation in JS?
+Error propagation refers to the process of passing or propagating an error from one part of the code to another by using the throw statement with try catch.
 
 #### What are the best practices for error handling?
+try catch
+use descriptive error messsages
 
 #### What are the different types of errors in JS?
+syntax error
+Reference error
+type error
+range error
 
 #### What are objects in JS?
+An object is a data type that allows you to store key-value pairs.
+eg:if object is a person it has properties like hair, eyes, skin etc. also it has actions like eat, sleep, walk etc.
+eg: let person {
+    name: "Rince",
+    hobbies: ["Teacher", "foodbool"],
+    greet: function() {
+        console.log("Name" + this.name)
+    },
+}
 
 #### In how many ways we can create an object?
+object literal
+object constructor
+Object.create() method
 
 #### What is the difference between an array and an object?
-
-#### What is the difference between array and objects?
 
 #### How do you add or modify or delete properties of and object?
 
 #### Explain the difference between dot notation and bracket notation?
+both dot notation and bracket notation are used to access properties or methods of an object.
+Dot notations is more propular and used due to its simplicity.
+but if we dynamically assign property name to a variable dot notation give an error
+
+dot notation
+console.log(person.name)
+
+bracket notation
+console.log(person['name'])
 
 #### What are some common methods to iterate over the properties of an object?
+for..in loop
+Object.keys() and forEach()
+Object.values() and forEach()
 
 #### How do you check if a property exists in an object?
+console.log("name" in person) //give boolean value
+console.log(person.hasOwnProperty("name)); //give boolean value
+console.log(person.name !== undefined); //give boolean value
 
 #### How do you clone or copy an object?
+sperad syntax(...) //shallow copy
+Object.assign()  //shallow copy
+JSON.parse() and JSON.stringify() //deep copy
 
 #### What is the difference between deep copy and shallow copy on JS?
+shallow copy in nested objects case will modify the parent object property value, if cloned object property value is changed, But deep copy will not modify the parent object property value.
 
 #### What is Set Object in JS?
+The Set object is a collection of unique values, meaning that duplicate values are not allowed.
 
 #### What is Map Object in JS?
+THe Map object is a collection of key-value pairs where each key can be of any type, and each value can also be any type.
+A map maintains the order of key-value pairs as they were inserted.
 
 #### What is the differnce between Map and Object in JS?
 
 #### Events
 #### What are Events?  How are events triggered?
+events are actions that happen in the browser, such as a buttin click, mouse movement, or keybord input.
 
 #### What are the types of events in JS?
+click, mouseover, keydown etc
 
 #### What is Event Object in JS?
+whenever any event is triggered, the browser automatically creates an event object and passes it as an argument to the event handler function.
+The event object contains various properties and methods that provide information about the event, such as the type of event, the element that triggered the event etc.
 
 #### What is Event Delegation in JS?
+event delegation in Javascript is a technique where you attach a single event handler to a parent element to handle events on its child elements.
 
 #### What is Event Bubbling in JS?
+event bubbling is the process in Javascript where an event triggered on a child element propagates up the DOM tree, triggering event handlers on its parent elements.
 
 #### How can you stop event propagation or event bubbling in JS?
+event.stopPropagation()
 
 #### What is Event Capturing in JS?
+event capturing is the process in Javascript where an event is handled starting from the highest-level ancestor and moving down to the target element.
 
 #### What is the purpose of the event.preventDefault() method in JS?
+This method is used to prevent the default behavior of an event and the link click will be prevented.
 
 #### What is the use of "this" keyword in the context of event handling in JS?
+this keyword refers to the element that the event handler is attached to.
 
 #### How to remove an event handler from an element in JS?
-
-
-
-
-2:02:00
+removeEventListener()
