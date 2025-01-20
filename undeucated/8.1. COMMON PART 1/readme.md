@@ -3,8 +3,35 @@
 
 |  content  | topics |
 | -----| ----- |
-| [API](#api) | |
-| [Rest API](#rest-api) | |
+| [API-](#api) | |
+| [Rest API-](#rest-api) | |
+| [Browser storage types-](#browser-storage-types) | |
+| [HTTP-](#http) | |
+| [HTTPS-](#https) | |
+| [SSL/TLS-](#ssltls) | |
+| [HTTP PARTS-](# httpparts) | |
+| [CORS-](# cors) | |
+| [PORT NUMBER-](#port-number) | |
+| [transpiler vs compiler vs interpreter-](#transpiler-vs-compiler-vs-interpreter) | |
+| [Url,uri,urn-](#urluriurn) | |
+| [Webpack and babel-](#webpack-and-babel) | |
+| [JWT-](#jwt) | |
+| [BCRYPT-](#bcrypt) | |
+| [CORE-](#core) | |
+| [Oauth-](#oauth) | |
+| [COMMONJS-](# commonjs) | |
+| [Framework Vs library Vs Package Vs Modules-](# Framework Vs library Vs Package Vs Modules) | |
+| [What is server?-](# What is server?) | |
+| [Url components-](# Url components) | |
+| [MVC-](# mvc) | |
+| [Express vs The Express application generator-](# Express vs The Express application generator) | |
+| [Proxy-](# Proxy) | |
+| [Apache/nginx-](# Apache/nginx) | |
+| [The Internet Protocol Suite TCP/IP-](# The Internet Protocol Suite) | |
+| [Web socket-](# Web socket) | |
+| [WebRTC-](# WebRTC) | |
+| [Difference b/w web socket and webrtc-](# Difference b/w web socket and webrtc) | |
+
 
 
 ### API

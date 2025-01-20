@@ -5,6 +5,7 @@ Why using this in computer
 Transistors and switches
 Unary
 UTF-8
+event driven architecture
 ASCII
 unicode
 Why need of extensions like jpg,psd,png etc because it instructs computer to how to interpreted as follow
