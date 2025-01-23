@@ -4,7 +4,9 @@
 |  content  | topics |
 | -----| ----- |
 | [API-](#api) | |
+| [IP-](#) | |
 | [Rest API-](#rest-api) | |
+| [DNS](#dns) | |
 | [Browser storage types-](#browser-storage-types) | |
 | [HTTP-](#http) | |
 | [HTTPS-](#https) | |
@@ -71,6 +73,26 @@ HATEOAS is a constraint in REST where the server provides hypermedia links in th
 RESTful principles are commonly used in the design of web services and APIs. APIs following REST principles are often referred to as RESTful APIs. They provide a straightforward and scalable approach to building and consuming web services.
 
 
+## DNS
+Domain Name System
+its an internet directory, it translates human-readable domain names, sucha as google.com to machine-readable IP addresses.
+
+4 steps to DNS
+1.DNA Recursor
+2.Root Server
+3.TLD name server
+4.Auteoritivie NS.
+
+Domain name - google.com
+TLD - Top level domain - like uk,fr,com,edu etc
+SLD - second level domain - google,freecodecamp etc
+TTL - time to live - its the value that data can be cached.
+
+https://www.youtube.com/watch?v=27r4Bzuj5NQ
+https://www.geeksforgeeks.org/domain-name-system-dns-in-application-layer/
+https://www.cloudflare.com/learning/dns/what-is-dns/
+https://www.freecodecamp.org/news/what-is-dns-for-beginners/
+https://www.freecodecamp.org/news/what-is-dns/
 
 
 
