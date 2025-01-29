@@ -77,11 +77,17 @@ RESTful principles are commonly used in the design of web services and APIs. API
 Domain Name System
 its an internet directory, it translates human-readable domain names, sucha as google.com to machine-readable IP addresses.
 
-4 steps to DNS
-1.DNA Recursor
-2.Root Server
-3.TLD name server
-4.Auteoritivie NS.
+Here’s how it works:
+1.You enter a domain name (like example.com) in your browser.
+2.The browser sends a DNS query to a DNS resolver to find the IP address of the domain.
+3.DNS resolver checks its cache or contacts other DNS servers (like root servers, TLD servers, and authoritative servers) to find the IP address.
+4.IP address is returned to the browser.
+5.Browser connects to the IP address and loads the website.
+
+DNS query record types
+A Record - hostname to ip address(ipv4) 
+AAAA - hostname to ip address(ipv6)
+CNAME(canonical name) - A record or AAAA recorder 
 
 Domain name - google.com
 TLD - Top level domain - like uk,fr,com,edu etc

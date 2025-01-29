@@ -20,6 +20,9 @@ tailwindcss
 
 
 ### react
+
+framer-motion
+
 recharts
 https://www.chartjs.org/
 
