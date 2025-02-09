@@ -3,13 +3,33 @@
 
 |  content  | topics |
 | -----| ----- |
-| [**Common topic related to JS**](#common-topic-related-to-js) |
-| [API](#api) | |
+| [**Core JavaScript Concepts**](#core-javascript-concepts) |
+| [Variables](#variables) | |
+| [Data Types](#data-types) | |
+| [undefinded vs null](#undefinded-vs-null) | |
+| [Type coercion](#type-coercion) | |
 | [Rest API](#rest-api) | |
+| [**Core JavaScript C**](#core-javascript-concepts) |
 
-## Common topic related to JS
+
+## Core JavaScript Concepts
+
+### Variables
+Variables are used to store and manage values that may change throughout your application.
+var, let, const
+
+### Data Types
+string, number, boolean, null, undefined, symbol, object, functions, array
 
 ### undefinded vs null
+
+### Type coercion
+1.Implicit corecion
+when javascript automatically converts one data type to another.
+2.Explicit Corecion
+When you deliberately convert one type to another.
+
+
 
 
 ## javascript basics

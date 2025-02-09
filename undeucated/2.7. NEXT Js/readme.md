@@ -31,17 +31,17 @@ Next.js simplifies the process of building production-ready web applications
 
 
 
+##tutorial
+file based routing
 
+Layout
 
+Template
 
+<Image> - components for lazy loading
+link vs a tag
 
-
-
-
-
-### Layout
-
-### Template
+usePathname()
 
 
 
