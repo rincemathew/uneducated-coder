@@ -29,7 +29,28 @@ when javascript automatically converts one data type to another.
 2.Explicit Corecion
 When you deliberately convert one type to another.
 
+### scopes
+global scope, local scope, block scope
 
+### Lexical scope and Closures
+lexical scope refers to how the scope is determined by where the variables and functions are defined in the code.
+
+closures are used to create functions that can remember their surrounding environment, even after they are executed in a different scope. Closures are commonly used in callbacks, event handlers, and function factories.
+
+` javascript
+function createCounter() {
+    let count = 0; //'count' is enclosed in 
+    return function() {
+        count++;   // accessing the count variable from the outer scope
+        console.log(count)
+    };
+}
+
+const counter = createCounter(); //counter is a closure that rememers count
+counter();  //output:1
+counter();  //output:2
+counter();  //output:3
+`
 
 
 ## javascript basics
