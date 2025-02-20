@@ -8,8 +8,17 @@
 | [Data Types](#data-types) | |
 | [undefinded vs null](#undefinded-vs-null) | |
 | [Type coercion](#type-coercion) | |
+| [scopes](#scopes) | |
+| [Lexical scope and Closures](#lexical-scope-and-closures) | |
 | [Rest API](#rest-api) | |
-| [**Core JavaScript C**](#core-javascript-concepts) |
+| [Rest API](#rest-api) | |
+| [Rest API](#rest-api) | |
+| [Rest API](#rest-api) | |
+| [Rest API](#rest-api) | |
+| [**javascript Intermediate Concepts**](#javascript-intermediate-concepts) |
+| [**javascript Asynchronous**](#javascript-asynchronous) |
+| [What is Callbacks?](#what-is-callbacks-callback-function) | |
+| [Rest API](#rest-api) | |
 
 
 ## Core JavaScript Concepts
@@ -52,8 +61,19 @@ counter();  //output:2
 counter();  //output:3
 `
 
+### What is Hositing?
+Hoisting is Javascrtips default behaviour of moving declarations(not initializations) to the top of their containing scope during the compilation phase, before the code has been executed.
 
-## javascript basics
+variable hoisting
+function hoisting
+
+### Temporal Dead Zone(TDZ)?
+When variables are declared with let and const, they do not get intialized until the code execution reaches the declaration. This period is known as the Temporal Dead Zone(TDZ).
+
+question: hoisting with let and const
+
+
+## javascript Intermediate Concepts
 
 ## javascript Asynchronous
 
