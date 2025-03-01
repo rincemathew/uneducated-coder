@@ -69,6 +69,15 @@ To create a Client component, you'll need to add the "user client" directive at 
 While Client components cant perform sserver-side task like reading files, they can use hooks and handle user interactions.
 Client components are the traditional React compinets you are already familiar with from previous varsions of React.
 
+### Routing
+Next.js has a file-system based routing system.
+URLs you can access in your browser are determined by how you organize your files and folders in your code.
+
+#### Routing conventions
+All routes must live inside the app folder.
+Route files must be named either page.js or page.tsx
+Each folder represents a segment of the URL path.
+
 
 ##tutorial
 file based routing
