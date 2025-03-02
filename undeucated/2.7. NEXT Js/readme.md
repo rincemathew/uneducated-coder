@@ -78,6 +78,137 @@ All routes must live inside the app folder.
 Route files must be named either page.js or page.tsx
 Each folder represents a segment of the URL path.
 
+#### Nested routes
+[productid]
+parameter will give 'productid'
+
+#### Catch all URL segment
+it will catch all the nested routes.
+parameter is an array
+[...slug]
+[[...slug]]
+
+#### not found
+not-found.js file will take all the work
+'notFound' default function also work
+
+#### Private folders
+A way to tell Next.js "hey, this folder is just internal stuff - dont include it in the routing system"
+The folder and all its subfolders are excluded from routing.
+Add an underscore at the start of the folder name.
+_lib
+
+private folder benifeats
+Keeping your UI logic separate from routing logic.
+Having a consistent way to organize internal files in your project.
+Making it easier to group related files in your code editor.
+Avoiding potential naming conflicts with future Next.js file naming conventions.
+
+if you want _ in URL use "%5F"(URL encoded version of an underscore)
+
+#### Route groups
+lets us logically organize our routes and projects files without impacting the URL structure.
+Wrap folder in paratasis (auth)
+
+#### Layouts
+Pages are route-specific UI componentsA layout is UI that is shared between multiple pages in your app.
+
+Default export a React component from a layout.js or layout.tsx file.
+That compinent takes a childeen prop, which Next.js will populate with your page content.
+
+
+### Nested Layout
+
+
+### Multiple route layoutes
+wrap in the route groups
+
+
+### Routing Metadata
+The Metadata API in Next.js is a powerful feature that lets us define metadata for each page.
+Metadata ensures our content looks great when its shared or indexed by search engines
+Tow ways to handle metadata in layout.tsx or page.tsx file:
+1. export a static metadata object.
+2. export a dynamic generateMetadata function.
+
+rules:
+Both layout.js and page.js can export metadata. Layout metadata applies to all its pages, while page metadata is specific to that page.
+Metadata follows a top-down order, starting from the root level.
+When metadata exist in multiple places along a route, they merge together, with page metadata overriding layout metadata for matching properties.
+its will not work in "use client" directive
+
+### title metadata
+their is an optional object metadata
+title:{
+    default:
+    template:
+    absolute:
+}
+
+## Navigation
+### UI Navigation
+<Link href="/blog></Link>
+
+### params and searchParams
+params is a promise that resolves to an object containg the dynamic route paramenters(like id)
+searchParams is a promise that resolves to an object containing the query parameters(like filters and sorting)
+while page.js has access to both params and searchParams, layout.js only has access to params
+
+#### Navigate programmatically
+router.push("/") // useRouter
+router.replace("/")
+router.forward("/")
+router.back("/")
+
+redirect("/")
+
+
+### Template
+Templates are similar to layouts in that they are also UI shared between multiple pages in your app.
+Whenever a user navigates between routes sharing a template, you get a completely fresh start:
+a new template component instance is mounted
+DOM elements are recreated
+state is cleared
+effects are re-synchronized
+create a template by exporting a default React component from a template.js or template.tsx file.
+Like layouts, templates need to accept a children prop to render the nested route segments.
+
+
+### loading.js
+This file helps us create loading states that user see while waiting for content to load in a specific route segment.
+The loading states appear instantly when navigating, letting users know that the application is responsive and actively loading content.
+
+## error handling
+### Error.js
+it automatically wraps route segments and their nested childern in a React Error Boundary.
+you can create custom error UIs for specific segment using the file-system hierarchy.
+it isolates errors to affected segments while keeping the rest of your app funtional.
+it enables you to attempt to recover from an error whithout requring a full page reload.
+
+Erros always bubble up to find the closest parent error boundary(not in layout becuse of componet hierarchy(layout sits abouve the error boundary)).
+An error.js file handles errors not just for its own folder, but for all the nested child segments below it too.
+By strategically placing error.js files at different levels in your route folders, you can control exactlu how detailed your error handling gets.
+where you put your error.js file makes a huge difference - it determines exactly which parts of your UI get affected when things go wrong.
+
+#### global-error.js
+if an error boundary cant catch errors in the layout.js file from the same segment, what about errors in the root layout?
+it doesnt have a parent segement - how do we handle those errors?
+Next.js provides a special file called global-error.js that goes in your root app directory.
+This is your last line of defense when something goes catastrophically wrong at the highest level of your app.
+it works only production version
+requires html and body tags to be rendered.
+
+#### component hierarchy
+layout.js
+template.js
+error.js
+loading.js
+not-found.js
+page.js
+
+
+
+{usePathname}
 
 ##tutorial
 file based routing
