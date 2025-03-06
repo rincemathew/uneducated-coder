@@ -206,6 +206,46 @@ loading.js
 not-found.js
 page.js
 
+## Parallel Routes
+Parallel routing is an advanced routing mechanism that lets us render multiple pages somultaneously within the same layout.
+
+Parallel routes in Next.js are defined using a feature known as 'slots'
+Slots help organize content in a modular way.
+To create a slot, we use the '@folder' naming convention.
+Each defined slot automatically becomes a prop in its corresponding layout.js file.
+
+##### parallel routes use cases
+Dashboards with multiple sections.
+split-view interfaces.
+multi-pane Layouts
+complex admin interfaces
+
+##### Parallel routes benefits
+Parallel routes are great for splitting a layout into manageable slots.(especially when different teams work on different parts).
+independent route handling
+sub-navigating - When navigating throught the UI, Next.js keeps showing whatever was in the unmatched slots before, when page reload Next.js looks for a 'default.js' file in each unmatched slot.
+
+
+## Intercepting routes
+Intercepting routes is an advanced routing mechanism that allows you to load a route from another part of your application within the current layout.
+its particularly useful when you want to displat new content while keeping your user in the same context.
+(..)(..)foldername
+
+## Route handlers
+The app router lets you create custom request handlers for your routes using a feature calling route Handlers.
+Unlike page routes, which give us HTML content, Route Handlers let us build RESTful endpoints with complete control over the response.
+Think of it like building a Node + Express app.
+There's no need to set up and configure a separate server.
+Route Handlers are great when making external API requests as well.
+For example, if you are building an app that needs to talk to third-party services, Route handlers run server-side, our sensitvie info like private keys stays secuew and never reaches the browser.
+Route handlers are the equivalent of API routes in Page router.
+Next.js supports GET,POST,PUT,PATCH,DELETE,HEAD and OPTIONS.
+
+ex:
+export async function GET() {
+    return new Respose("Hello world");
+}
+file name should route.js
 
 
 {usePathname}
