@@ -247,6 +247,21 @@ export async function GET() {
 }
 file name should route.js
 
+## Route handlers Handling request GET,POST...
+
+## Headers in route handlers
+HTTP headers represent the metadata associated with and API request and response.
+
+### Request Headers
+THese are sent by the client, such as a web browser, to the server. They contain essential information about the request, which helps the server understand and process it correctly.
+'User-agent' which identifies the browser and operating system to the server.
+'Accept' which indicates the content types like text, video, or image formats that the client can process.
+
+### Response Headers
+These are sent back from the server to the client. They provide information about the server and the data being sent in the response.
+'Content-Type' header which indicates the media type of the reponse. It tells the client what the data type of the returned content is, such as text/html for HTML documents, application/json for JSON data, etc.
+
+
 
 {usePathname}
 
