@@ -261,8 +261,34 @@ THese are sent by the client, such as a web browser, to the server. They contain
 These are sent back from the server to the client. They provide information about the server and the data being sent in the response.
 'Content-Type' header which indicates the media type of the reponse. It tells the client what the data type of the returned content is, such as text/html for HTML documents, application/json for JSON data, etc.
 
+## Cookies in route handlers
+Cookies are small pieces of data that a server sends to a users web browser.
+The browser can store the cookies and send them to the same server with future requests.
+Cookies serve three main purposes:
+-managing sessions(like user logins and shopping carts)
+-handling personalization (such as user preferences and themes)
+-tracking (like recording and analyzing user behavior)
+
+## Caching in route handlers
+Route handlers are not cached by default but you can opt into caching when using the GET method.'Caching only works with GET methods.
+Other HTTP methods like POST,PUT, or DELETE are never cached.
+If you are using dynamic functions like headers() and cookies(), or working with the request object in your GET method, Caching wont be applied.
 
 
+## Middleware
+Middleware in Next.js is a powerful feature that lets you intercept and control the flow or requests and responses throughout your application.
+It does this at a global level, significantly enhancing features like redirects, URL rewrites, authentication, headers, cookies and more.
+Middleware lets you specify paths where it should be active.
+Custom matcher config
+Conditional statement
+
+## Rendering
+Rendering is the process of transforming the component code you write into user interfaces that users can see and interact with.
+In Next.js the tricky part to building a performant application is figuring out when and where this transformation should happen
+CSR(Client side rendering), SSR and RSCs
+
+
+hyration mening?
 {usePathname}
 
 ##tutorial
