@@ -285,10 +285,36 @@ Conditional statement
 ## Rendering
 Rendering is the process of transforming the component code you write into user interfaces that users can see and interact with.
 In Next.js the tricky part to building a performant application is figuring out when and where this transformation should happen
-CSR(Client side rendering), SSR and RSCs
+CSR(Client side rendering), SSG,SSR and RSCs
 
+
+## RSC Rendering Lifecycle?
+app router is build on RSC architeture
+
+### Server rendering strategies
+#### Static rendering
+#### Dynamic rendering
+#### streaming (suspense)
+
+## generateStaticParams()
+
+### server-only package
+### client-only package
+
+## context provider
+
+## interleaving server and client components
+
+## data loading
+parallel and squential data fetching
+
+## data mutation
+
+## server actions
+"use server"
 
 hyration mening?
+
 {usePathname}
 
 ##tutorial
