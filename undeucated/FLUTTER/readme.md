@@ -10,8 +10,15 @@ bloc - vs code extension
 ## create project
 flutter create name
 
+hotreload
 
-1:50:33
+## operators
+prefix, infix, suffix
+
+cherry picking non null values
+
+
+3 :41:27
 
 create new application and run in flutter
 remove test label in test mode
