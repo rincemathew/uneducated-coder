@@ -172,8 +172,9 @@ babel
 json vs js object
 .toBe(5)
 
+js dom
 
-1:45
+2:02
 ffffff
 
 react and react dom
