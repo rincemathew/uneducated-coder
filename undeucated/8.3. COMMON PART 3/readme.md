@@ -22,6 +22,10 @@ Functions, arguments, parameter
 Module vs library vs framework
 Data type
 Int vs bigint data type
+integer overflow(why calculations wrong in coding)
+assembly language
+ram
+sentinel value
+memeroy allocation
 
-
-3.03
+6:00:08
