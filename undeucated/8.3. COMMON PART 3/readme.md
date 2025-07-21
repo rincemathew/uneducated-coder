@@ -26,6 +26,7 @@ integer overflow(why calculations wrong in coding)
 assembly language
 ram
 sentinel value
+A sentinel value is a special data value used to signal the end of a data structure or to indicate a specific condition in a program, particularly within loops or recursive algorithms. It acts as a marker to tell the program when to stop processing input or to signify a particular state. 
 memeroy allocation
 
-6:00:08
+6:15:08
