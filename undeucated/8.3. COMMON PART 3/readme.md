@@ -30,6 +30,12 @@ A sentinel value is a special data value used to signal the end of a data struct
 memeroy allocation
 
 algoritoms
+big 0 notation
+omega
+big theta
+linear search
+(sudo code)
 
 
-6:22:08
+
+6:49:08
