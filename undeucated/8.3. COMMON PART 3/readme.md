@@ -35,7 +35,10 @@ omega
 big theta
 linear search
 (sudo code)
+binary search
+
+data structure
 
 
 
-6:49:08
+7:31:08
