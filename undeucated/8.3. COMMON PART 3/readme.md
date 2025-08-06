@@ -5,6 +5,7 @@ Why using this in computer
 Transistors and switches
 Unary
 UTF-8
+Unicode is a character set that aims to represent every character from every writing system in the world. UTF-8 is one of the ways to encode these Unicode characters into a format that computers can understand. 
 event driven architecture
 ASCII
 unicode
@@ -38,7 +39,8 @@ linear search
 binary search
 
 data structure
+recursion (call function in function)
 
 
 
-7:31:08
+8:39:08
