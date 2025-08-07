@@ -41,6 +41,12 @@ binary search
 data structure
 recursion (call function in function)
 
+hxadicimal
+pointer
+keepoverflow or buffer overflow
+stack overflow
 
 
-8:39:08
+
+
+9:18:08

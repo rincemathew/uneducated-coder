@@ -189,3 +189,14 @@ try catch finally throw
 async await
 event bloking
 
+
+
+
+`````````
+1
+what is javascript
+history
+ecmascript
+
+include script in html
+async defer
