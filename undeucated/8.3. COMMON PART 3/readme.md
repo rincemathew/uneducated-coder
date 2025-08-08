@@ -45,8 +45,11 @@ hxadicimal
 pointer
 keepoverflow or buffer overflow
 stack overflow
+dynamic memory alocation
+malloc in c
+valgrind tool to find error
+heap and stack
 
 
 
-
-9:18:08
+11:03:08
