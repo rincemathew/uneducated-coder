@@ -41,7 +41,8 @@ binary search
 data structure
 recursion (call function in function)
 
-hxadicimal
+Hexadecimal
+Hexadecimal is a base-16 number system, using 16 symbols to represent values. These symbols are the digits 0-9 and the letters A-F, where A represents 10, B represents 11, and so on up to F representing 15. It's frequently used in computer science because it provides a concise way to represent binary data. 
 pointer
 keepoverflow or buffer overflow
 stack overflow
