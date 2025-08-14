@@ -43,7 +43,10 @@ recursion (call function in function)
 
 Hexadecimal
 Hexadecimal is a base-16 number system, using 16 symbols to represent values. These symbols are the digits 0-9 and the letters A-F, where A represents 10, B represents 11, and so on up to F representing 15. It's frequently used in computer science because it provides a concise way to represent binary data. 
+
 pointer
+In C programming, a pointer is a variable that stores the memory address of another variable. Instead of holding a direct value, a pointer holds the location in memory where a value is stored. This allows for direct manipulation of data in memory and facilitates various advanced programming techniques. 
+
 keepoverflow or buffer overflow
 stack overflow
 dynamic memory alocation
