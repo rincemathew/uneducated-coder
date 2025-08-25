@@ -13,7 +13,8 @@ Why need of extensions like jpg,psd,png etc because it instructs computer to how
 8bit is equal to one byte,
 Rbg
 Algorithm
-Sudo code
+Pseudocode
+Pseudocode is an informal, high-level description of an algorithm or a program's logic. It uses a combination of natural language (often English) and programming-like constructs, but without adhering to the strict syntax rules of any specific programming language. Its primary purpose is to outline the steps and flow of a process in a way that is easily understandable by humans, regardless of their specific programming language background.
 Mit app creator - https://appinventor.mit.edu/
 Cli or terminal
 Linex and other oss
@@ -56,4 +57,4 @@ heap and stack
 
 
 
-11:03:08
+11:21:08
