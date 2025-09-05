@@ -32,14 +32,21 @@ npx create-next-app@latest
 npm run dev
 
 ### ESLint what is this
+ESLint is used to perform static code analysis for JavaScript, finding and fixing problematic patterns and enforcing consistent coding styles and standards across a project
 
 ### code inside src directory 
+https://nextjs.org/docs/app/api-reference/file-conventions/src-folder
+if src folder is there, componets, lib folder can place there
 
 ### app router
+newer version, old it was page router
 
 ### use Turbopack
+Turbopack helps with that by addressing two major pain points: Build Time: If you've ever worked on a large Next. js application, you know how long it takes for Webpack to rebuild and reload your app. Turbopack's incremental build system can speed up development by compiling only the files that have changed
 
 ### customize the import alias
+next.js, you can use import aliases to create shorter and more descriptive import paths for your modules. This can make your codebase cleaner and more maintainable, as it avoids long relative paths that might become cumbersome, especially in larger projects.
+jsconfig.json or tsconfig.json
 
 folder structure
 next.config.ts - nextjs settings
