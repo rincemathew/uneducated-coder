@@ -41,6 +41,7 @@ binary search
 
 data structure
 recursion (call function in function)
+Recursion is a computer science technique where a function calls itself to solve a problem, breaking it into smaller, self-similar subproblems until a base case is reached, which stops the process
 
 Hexadecimal
 Hexadecimal is a base-16 number system, using 16 symbols to represent values. These symbols are the digits 0-9 and the letters A-F, where A represents 10, B represents 11, and so on up to F representing 15. It's frequently used in computer science because it provides a concise way to represent binary data. 
