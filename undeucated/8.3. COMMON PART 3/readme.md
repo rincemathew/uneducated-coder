@@ -33,6 +33,7 @@ memeroy allocation
 
 algoritoms
 big 0 notation
+Big O notation is a mathematical concept used in computer science to describe the upper bound of an algorithm's time complexity or space complexity, showing how its performance (runtime or memory usage) scales as the input size increases.
 omega
 big theta
 linear search
