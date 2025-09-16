@@ -8,6 +8,7 @@ UTF-8
 Unicode is a character set that aims to represent every character from every writing system in the world. UTF-8 is one of the ways to encode these Unicode characters into a format that computers can understand. 
 event driven architecture
 ASCII
+American Standard Code for Information Interchange, is a character encoding standard that assigns numerical values to letters, numbers, punctuation, and control characters to allow computers to interpret and communicate information digitally.
 unicode
 Why need of extensions like jpg,psd,png etc because it instructs computer to how to interpreted as follow
 8bit is equal to one byte,
