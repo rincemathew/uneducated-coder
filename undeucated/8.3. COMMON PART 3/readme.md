@@ -1,4 +1,5 @@
 Binary number
+A binary number is a number expressed using only two symbols, typically 0 and 1, as part of the base-2 numeral system. 
 Pesudo code
 Decimal system
 Why using this in computer 
