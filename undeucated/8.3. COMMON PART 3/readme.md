@@ -5,6 +5,7 @@ Decimal system
 Why using this in computer 
 Transistors and switches
 Unary
+In computer science, "unary" refers to operations or systems that involve a single operand or element. A unary operator acts on one operand to produce a result, as seen with operators like the increment (++), decrement (--), and negation (-) in programming languages. The unary numeral system is a different concept where a number is represented by a sequence of identical symbols, with the number of symbols directly corresponding to the number's value. 
 UTF-8
 Unicode is a character set that aims to represent every character from every writing system in the world. UTF-8 is one of the ways to encode these Unicode characters into a format that computers can understand. 
 event driven architecture
