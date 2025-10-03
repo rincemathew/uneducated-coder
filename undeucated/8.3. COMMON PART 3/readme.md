@@ -64,6 +64,13 @@ malloc in c
 valgrind tool to find error
 heap and stack
 
+linked list
+stack
+heap
+node
 
 
-11:30:08
+
+11:47:08
+
+13:16
