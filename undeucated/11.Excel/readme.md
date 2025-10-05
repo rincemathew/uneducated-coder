@@ -42,3 +42,18 @@ eg: =AVERAGE(number1, number2, number3)
 
 ## Fixing error
 eg =IFERROR(calculation, value if error)
+
+
+## Conditional formulas
+IF, COUNTIF, SUMIF
+
+## Text Functions
+find, Split, Count, Combine
+
+## Date
+
+## LOOKUP (VLOOKUP, HLOOKUP)
+
+## Dynamic Lookups (INDEX, MATCH)
+
+## Logical Formulas (AND, OR, NOT)
