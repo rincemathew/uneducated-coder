@@ -57,3 +57,7 @@ find, Split, Count, Combine
 ## Dynamic Lookups (INDEX, MATCH)
 
 ## Logical Formulas (AND, OR, NOT)
+
+## Sorting and flitering
+
+## Dropdown list
