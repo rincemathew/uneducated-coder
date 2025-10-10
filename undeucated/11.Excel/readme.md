@@ -61,3 +61,13 @@ find, Split, Count, Combine
 ## Sorting and flitering
 
 ## Dropdown list
+
+## Charts
+
+## Combo Charts and Secondary axis
+
+## conditional formating
+
+## sparklines and data bars
+
+## kpi dashboard - key performance indicators (KPIs)
