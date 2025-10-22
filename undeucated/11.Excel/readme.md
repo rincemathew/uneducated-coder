@@ -71,3 +71,9 @@ find, Split, Count, Combine
 ## sparklines and data bars
 
 ## kpi dashboard - key performance indicators (KPIs)
+
+## pivot table and data analysis
+
+## pivot charts
+
+## using slices in pivot table 
