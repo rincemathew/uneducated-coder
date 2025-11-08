@@ -12,6 +12,9 @@ event driven architecture
 ASCII
 American Standard Code for Information Interchange, is a character encoding standard that assigns numerical values to letters, numbers, punctuation, and control characters to allow computers to interpret and communicate information digitally.
 unicode
+Unicode is a fundamental international standard for character encoding that allows computers to consistently represent and manipulate text from nearly all of the world's writing systems.
+In simple terms, it gives a unique number to every single character, symbol, and emoji, regardless of the platform, program, or language.
+
 Why need of extensions like jpg,psd,png etc because it instructs computer to how to interpreted as follow
 8bit is equal to one byte,
 Rbg
